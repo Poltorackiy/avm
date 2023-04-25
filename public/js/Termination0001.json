@@ -1,0 +1,40 @@
+{
+	"files":[],
+	"Instances":[
+		{"agentType":"bag2_e2","agentName":"Agent"},
+		{"agentType":"bag1_e2","agentName":"Agent"},
+		{"agentType":"ag1","agentName":"Agent"},
+		{"agentType":"ag2","agentName":"Agent"}],
+	"Environment":" \n (rax==0)",
+	"trace":[
+		{"action":"a","msc":[
+			{"type":"msg","arrow":"out","agents":[{"agentType":"Agent","agentName":"ag1"},{"agentType":"Agent","agentName":"ag2"}],"name":"msg","number":1,"params":[{"value":"0"}]},
+			{"type":"msg","arrow":"out","agents":[{"agentType":"Agent","agentName":"ag2"},{"agentType":"Agent","agentName":"ag1"}],"name":"msg","number":2,"params":[{"value":"0"}]}]},
+		{"Environment":" \n rax==0"},
+		{"action":"bag2","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentType":"Agent","agentName":"ag2"},{"agentType":"Agent","agentName":"ag1"}],"name":"msg","number":1,"params":[{"value":"0"}]},
+			{"type":"act","agentType":"Agent","agentName":"bag2_e2","value":"text"}]},
+		{"Environment":" \n rax==0&& \n rbx==1"},
+		{"action":"bag1","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentType":"Agent","agentName":"ag1"},{"agentType":"Agent","agentName":"ag2"}],"name":"msg","number":2,"params":[{"value":"0"}]},
+			{"type":"act","agentType":"Agent","agentName":"bag1_e2","value":"text"}]},
+		{"Environment":" \n rbx==1&& \n rax==0&& \n rbx==1"},
+		{"action":"cag1","msc":[
+			{"type":"msg","arrow":"out","agents":[{"agentType":"Agent","agentName":"ag1"},{"agentType":"Agent","agentName":"ag2"}],"name":"msg","number":3,"params":[{"value":"lvr0__26_32_0_0"}]}]},
+		{"Environment":" \n rbx==1&& \n lvr0__26_32_0_0==1&& \n rax==0"},
+		{"action":"cag2","msc":[
+			{"type":"msg","arrow":"out","agents":[{"agentType":"Agent","agentName":"ag2"},{"agentType":"Agent","agentName":"ag1"}],"name":"msg","number":4,"params":[{"value":"lvr0__32_26_0_0"}]}]},
+		{"Environment":" \n rbx==1&& \n lvr0__32_26_0_0==1&& \n lvr0__26_32_0_0==1&& \n rax==0"},
+		{"action":"dag1","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentType":"Agent","agentName":"ag1"},{"agentType":"Agent","agentName":"ag2"}],"name":"msg","number":4,"params":[{"value":"lvr0__32_26_0_0"}]}]},
+		{"Environment":" \n lvr0__26_32_0_0==1&& \n rcx==2&& \n rbx==1&& \n rax==0"},
+		{"action":"notkag1","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentName":"found"},{"agentType":"Agent","agentName":"ag1"}],"name":"msg","number":5,"params":[]}]},
+		{"Environment":" \n lvr0__26_32_0_0==1&& \n rcx==2&& \n rbx==1&& \n rax==0"},
+		{"action":"dag2","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentType":"Agent","agentName":"ag2"},{"agentType":"Agent","agentName":"ag1"}],"name":"msg","number":3,"params":[{"value":"lvr0__26_32_0_0"}]}]},
+		{"Environment":" \n rcx==2&& \n rcx==2&& \n rbx==1&& \n rax==0"},
+		{"action":"notkag2","msc":[
+			{"type":"msg","arrow":"in","agents":[{"agentName":"found"},{"agentType":"Agent","agentName":"ag2"}],"name":"msg","number":6,"params":[]}]}
+	]
+}

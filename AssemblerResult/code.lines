@@ -1,0 +1,1135 @@
+add(12935,rsp,0x118)	:	"./code1.dump.lines",	13032
+add(12964,rsp,0x80)	:	"./code1.dump.lines",	13063
+add(12967,Memory(cs, 4,0x6bb8b4),0x1)	:	"./code1.dump.lines",	13066
+add(13008,rsp,0x80)	:	"./code1.dump.lines",	13107
+add(13026,rsp,0x80)	:	"./code1.dump.lines",	13125
+add(13028,Memory(cs, 4,0x6bb8b4),0x1)	:	"./code1.dump.lines",	13127
+add(13668,rbp,0x8)	:	"./code1.dump.lines",	13775
+add(13674,rbx,0x2)	:	"./code1.dump.lines",	13781
+add(13675,rsp,0x8)	:	"./code1.dump.lines",	13782
+add(13686,r13,0x2)	:	"./code1.dump.lines",	13793
+add(13692,rbp,0x8)	:	"./code1.dump.lines",	13799
+add(15424,rsp,0x80)	:	"./code1.dump.lines",	15571
+add(15428,Memory(ds, 4, rdx(0,8)+4),0x1)	:	"./code1.dump.lines",	15575
+add(15453,rbx,0x1)	:	"./code1.dump.lines",	15600
+add(15473,rsp,0x80)	:	"./code1.dump.lines",	15620
+add(15474,rsp,0x8)	:	"./code1.dump.lines",	15621
+add(17369,rax,Memory(ss, 8, rbp(0,8)-96))	:	"./code1.dump.lines",	17538
+add(17370,edx,0x8)	:	"./code1.dump.lines",	17539
+add(17507,rax,Memory(ss, 8, rbp(0,8)-112))	:	"./code1.dump.lines",	17678
+add(17508,edx,0x8)	:	"./code1.dump.lines",	17679
+add(17511,r12,0x2)	:	"./code1.dump.lines",	17682
+add(17523,rax,0x10)	:	"./code1.dump.lines",	17694
+add(17539,r8,rax)	:	"./code1.dump.lines",	17710
+add(17590,rbx,0x10)	:	"./code1.dump.lines",	17761
+add(21407,rsp,0x10)	:	"./code1.dump.lines",	21664
+add(21417,rsp,0x10)	:	"./code1.dump.lines",	21674
+add(60544,rax,0x40)	:	"./code1.dump.lines",	61147
+add(60561,rax,rdx)	:	"./code1.dump.lines",	61164
+add(63970,rsi,rcx)	:	"./code1.dump.lines",	64585
+add(63971,rdx,0x10)	:	"./code1.dump.lines",	64586
+add(69371,rsp,0x68)	:	"./code1.dump.lines",	70104
+add(69437,rsp,0x58)	:	"./code1.dump.lines",	70172
+add(69483,rsp,0x10)	:	"./code1.dump.lines",	70220
+add(86707,rsp,0x148)	:	"./code1.dump.lines",	87676
+and(15407,eax,0x8000)	:	"./code1.dump.lines",	15554
+and(17381,rax,0xfffffffffffffff0)	:	"./code1.dump.lines",	17550
+and(17382,rbx,0xfffffffffffffff0)	:	"./code1.dump.lines",	17551
+and(17403,r12,rax)	:	"./code1.dump.lines",	17572
+and(17450,edi,0x2)	:	"./code1.dump.lines",	17621
+and(17490,rdx,0xfffffffffffffff0)	:	"./code1.dump.lines",	17661
+and(17527,r12,0xfffffffffffffff0)	:	"./code1.dump.lines",	17698
+and(17574,r13,rax)	:	"./code1.dump.lines",	17745
+and(34201,eax,0x20c00)	:	"./code1.dump.lines",	34692
+and(34214,dh,0x2)	:	"./code1.dump.lines",	34707
+and(35041,eax,0x101000)	:	"./code1.dump.lines",	35550
+and(35056,edx,0x2)	:	"./code1.dump.lines",	35565
+and(35062,edx,0x20000)	:	"./code1.dump.lines",	35571
+and(35155,eax,0x20c00)	:	"./code1.dump.lines",	35674
+and(60464,rcx,0xfff)	:	"./code1.dump.lines",	61067
+and(60495,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	61098
+and(60512,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	61115
+and(63802,rcx,0x3f)	:	"./code1.dump.lines",	64417
+and(63805,rsi,0xfffffffffffffff0)	:	"./code1.dump.lines",	64420
+and(63806,rcx,0xf)	:	"./code1.dump.lines",	64421
+and(69351,r10d,0x40)	:	"./code1.dump.lines",	70084
+and(69355,eax,0x410000)	:	"./code1.dump.lines",	70088
+and(69420,r10d,0x40)	:	"./code1.dump.lines",	70155
+and(69424,eax,0x410000)	:	"./code1.dump.lines",	70159
+and(71995,r11d,0xffffffbb)	:	"./code1.dump.lines",	72806
+bsf(60560,rdx,rdx)	:	"./code1.dump.lines",	61163
+bsf(63969,rdx,rdx)	:	"./code1.dump.lines",	64584
+cdqe(86652,null,null)	:	"./code1.dump.lines",	87621
+cmova(15456,rbx,rax)	:	"./code1.dump.lines",	15603
+cmove(35158,rax,rdx)	:	"./code1.dump.lines",	35677
+cmove(72058,rcx,rbp)	:	"./code1.dump.lines",	72877
+cmovne(34217,rax,rdx)	:	"./code1.dump.lines",	34710
+cmovne(35053,rax,rdx)	:	"./code1.dump.lines",	35562
+cmovne(35059,rax,rdx)	:	"./code1.dump.lines",	35568
+cmovne(35068,rax,rdx)	:	"./code1.dump.lines",	35577
+cmovne(35074,rax,rdx)	:	"./code1.dump.lines",	35583
+cmp(12922,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	13019
+cmp(12951,Memory(cs, 8,0x6bb8b8),rdx)	:	"./code1.dump.lines",	13050
+cmp(12954,Memory(cs, 4,0x6bc80c),0x0)	:	"./code1.dump.lines",	13053
+cmp(12981,eax,0x1)	:	"./code1.dump.lines",	13080
+cmp(12983,eax,0x2)	:	"./code1.dump.lines",	13082
+cmp(12985,eax,0x3)	:	"./code1.dump.lines",	13084
+cmp(12987,eax,0x4)	:	"./code1.dump.lines",	13086
+cmp(12989,eax,0x5)	:	"./code1.dump.lines",	13088
+cmp(12998,Memory(cs, 4,0x6bc80c),0x0)	:	"./code1.dump.lines",	13097
+cmp(13012,Memory(cs, 8,0x6bb8b8),rdx)	:	"./code1.dump.lines",	13111
+cmp(13016,Memory(cs, 4,0x6bc80c),0x0)	:	"./code1.dump.lines",	13115
+cmp(13660,Memory(ds, 1, r13(0,8)+1),0x0)	:	"./code1.dump.lines",	13767
+cmp(13672,ax,Memory(ds, 2, rbx(0,8)))	:	"./code1.dump.lines",	13779
+cmp(13696,r12w,Memory(ds, 2, rbx(0,8)))	:	"./code1.dump.lines",	13803
+cmp(13704,Memory(ds, 1, rbx(0,8)+r14(0,8)*1),0x3d)	:	"./code1.dump.lines",	13811
+cmp(15411,Memory(ds, 8, rdx(0,8)+8),r8)	:	"./code1.dump.lines",	15558
+cmp(15414,Memory(cs, 4,0x6bc80c),0x0)	:	"./code1.dump.lines",	15561
+cmp(15439,rax,rcx)	:	"./code1.dump.lines",	15586
+cmp(15444,rbx,rax)	:	"./code1.dump.lines",	15591
+cmp(15448,rax,Memory(ds, 8, rdi(0,8)+48))	:	"./code1.dump.lines",	15595
+cmp(15455,rbx,0x7fffffff)	:	"./code1.dump.lines",	15602
+cmp(15463,Memory(cs, 4,0x6bc80c),0x0)	:	"./code1.dump.lines",	15610
+cmp(15482,eax,0xffffffff)	:	"./code1.dump.lines",	15629
+cmp(15493,eax,0xffffffff)	:	"./code1.dump.lines",	15640
+cmp(17362,Memory(ds, 1, rax(0,8)),0x0)	:	"./code1.dump.lines",	17531
+cmp(17366,edx,0x2f)	:	"./code1.dump.lines",	17535
+cmp(17393,rax,0xfffffffffffffffc)	:	"./code1.dump.lines",	17562
+cmp(17406,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	17575
+cmp(17426,eax,0xffffffff)	:	"./code1.dump.lines",	17595
+cmp(17477,dl,0x25)	:	"./code1.dump.lines",	17648
+cmp(17479,Memory(ds, 1, rax(0,8)+1),0x73)	:	"./code1.dump.lines",	17650
+cmp(17481,r13b,0x25)	:	"./code1.dump.lines",	17652
+cmp(17501,Memory(ds, 1, r12(0,8)+1),0x73)	:	"./code1.dump.lines",	17672
+cmp(17504,edx,0x2f)	:	"./code1.dump.lines",	17675
+cmp(17540,rsi,rdx)	:	"./code1.dump.lines",	17711
+cmp(17550,rax,0xfffffffffffffffc)	:	"./code1.dump.lines",	17721
+cmp(17577,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	17748
+cmp(17592,r12,rbx)	:	"./code1.dump.lines",	17763
+cmp(17611,Memory(ds, 1, rax(0,8)),0x0)	:	"./code1.dump.lines",	17782
+cmp(17617,eax,0xffffffff)	:	"./code1.dump.lines",	17788
+cmp(17634,Memory(cs, 8,0x6b8fa8),0x0)	:	"./code1.dump.lines",	17809
+cmp(21404,rax,rcx)	:	"./code1.dump.lines",	21661
+cmp(34202,eax,0xc00)	:	"./code1.dump.lines",	34693
+cmp(35042,eax,0x1000)	:	"./code1.dump.lines",	35551
+cmp(35156,eax,0xc00)	:	"./code1.dump.lines",	35675
+cmp(544,Memory(ss, 4, rbp(0,8)-24),0xffffffff)	:	"./code1.dump.lines",	583
+cmp(559,rax,0x5)	:	"./code1.dump.lines",	598
+cmp(60465,rcx,0xfcf)	:	"./code1.dump.lines",	61068
+cmp(63803,rcx,0x20)	:	"./code1.dump.lines",	64418
+cmp(68963,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	69682
+cmp(68969,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	69688
+cmp(69356,eax,0x410000)	:	"./code1.dump.lines",	70089
+cmp(69366,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	70099
+cmp(69395,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	70128
+cmp(69425,eax,0x410000)	:	"./code1.dump.lines",	70160
+cmp(69432,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	70167
+cmp(69459,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	70196
+cmp(69477,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	70214
+cmp(70278,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	71043
+cmp(70303,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	71068
+cmp(70319,rax,0xfffffffffffff001)	:	"./code1.dump.lines",	71086
+cmp(71964,eax,edx)	:	"./code1.dump.lines",	72771
+cmp(71991,r11d,eax)	:	"./code1.dump.lines",	72802
+cmp(71996,r11d,0xa)	:	"./code1.dump.lines",	72807
+cmp(86675,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	87644
+cmp(86730,eax,0x1)	:	"./code1.dump.lines",	87701
+cmp(86743,rax,0xfffffffffffff000)	:	"./code1.dump.lines",	87716
+cmpxchg(12956,Memory(cs, 4,0x6bb8b0),esi)	:	"./code1.dump.lines",	13055
+cmpxchg(12959,Memory(cs, 4,0x6bb8b0),esi)	:	"./code1.dump.lines",	13058
+cmpxchg(13018,Memory(cs, 4,0x6bb8b0),esi)	:	"./code1.dump.lines",	13117
+cmpxchg(13021,Memory(cs, 4,0x6bb8b0),esi)	:	"./code1.dump.lines",	13120
+cmpxchg(15416,Memory(ds, 4, rdx(0,8)),esi)	:	"./code1.dump.lines",	15563
+cmpxchg(15419,Memory(ds, 4, rdx(0,8)),esi)	:	"./code1.dump.lines",	15566
+cmpxchg(71993,Memory(fs, 4, 0x308),r11d)	:	"./code1.dump.lines",	72804
+dec(13000,Memory(cs, 4,0x6bb8b0),null)	:	"./code1.dump.lines",	13099
+dec(13003,Memory(cs, 4,0x6bb8b0),null)	:	"./code1.dump.lines",	13102
+dec(15465,Memory(ds, 4, rdx(0,8)),null)	:	"./code1.dump.lines",	15612
+dec(15468,Memory(ds, 4, rdx(0,8)),null)	:	"./code1.dump.lines",	15615
+hlt(12992,null,null)	:	"./code1.dump.lines",	13091
+hlt(13055,null,null)	:	"./code1.dump.lines",	13154
+hlt(68965,null,null)	:	"./code1.dump.lines",	69684
+hlt(72004,null,null)	:	"./code1.dump.lines",	72815
+ja(12923,0x40dc88,null)	:	"./code1.dump.lines",	13020
+ja(17367,0x4122f5,null)	:	"./code1.dump.lines",	17536
+ja(17505,0x4125e6,null)	:	"./code1.dump.lines",	17676
+ja(60466,0x440750,null)	:	"./code1.dump.lines",	61069
+ja(68964,0x448da0,null)	:	"./code1.dump.lines",	69683
+ja(69367,0x4494b0,null)	:	"./code1.dump.lines",	70100
+ja(69396,0x4494c6,null)	:	"./code1.dump.lines",	70129
+ja(69433,0x449568,null)	:	"./code1.dump.lines",	70168
+ja(69478,0x449604,null)	:	"./code1.dump.lines",	70215
+ja(70279,0x44a310,null)	:	"./code1.dump.lines",	71044
+ja(86677,0x45acc0,null)	:	"./code1.dump.lines",	87646
+ja(86744,0x45ad30,null)	:	"./code1.dump.lines",	87717
+jae(15449,0x4104a8,null)	:	"./code1.dump.lines",	15596
+jae(70320,0x44a340,null)	:	"./code1.dump.lines",	71087
+jbe(15440,0x410490,null)	:	"./code1.dump.lines",	15587
+jbe(21405,0x416390,null)	:	"./code1.dump.lines",	21662
+jbe(68970,0x448d70,null)	:	"./code1.dump.lines",	69689
+jbe(70305,0x44a29b,null)	:	"./code1.dump.lines",	71070
+jbe(86731,0x45acf0,null)	:	"./code1.dump.lines",	87702
+je(12952,0x40dd20,null)	:	"./code1.dump.lines",	13051
+je(12955,0x40dcf6,null)	:	"./code1.dump.lines",	13054
+je(12960,0x40dd19,null)	:	"./code1.dump.lines",	13059
+je(12982,0x40dd93,null)	:	"./code1.dump.lines",	13081
+je(12984,0x40de50,null)	:	"./code1.dump.lines",	13083
+je(12986,0x40deb7,null)	:	"./code1.dump.lines",	13085
+je(12988,0x40ded6,null)	:	"./code1.dump.lines",	13087
+je(12990,0x40dea3,null)	:	"./code1.dump.lines",	13089
+je(12999,0x40ddc5,null)	:	"./code1.dump.lines",	13098
+je(13004,0x40dde7,null)	:	"./code1.dump.lines",	13103
+je(13013,0x40de49,null)	:	"./code1.dump.lines",	13112
+je(13017,0x40de1f,null)	:	"./code1.dump.lines",	13116
+je(13022,0x40de42,null)	:	"./code1.dump.lines",	13121
+je(13655,0x40e8a0,null)	:	"./code1.dump.lines",	13762
+je(13659,0x40e8a0,null)	:	"./code1.dump.lines",	13766
+je(13671,0x40e836,null)	:	"./code1.dump.lines",	13778
+je(13695,0x40e836,null)	:	"./code1.dump.lines",	13802
+je(15412,0x410392,null)	:	"./code1.dump.lines",	15559
+je(15415,0x410365,null)	:	"./code1.dump.lines",	15562
+je(15420,0x410380,null)	:	"./code1.dump.lines",	15567
+je(15464,0x41044a,null)	:	"./code1.dump.lines",	15611
+je(15469,0x410464,null)	:	"./code1.dump.lines",	15616
+je(15483,0x4103ae,null)	:	"./code1.dump.lines",	15630
+je(17361,0x4122d1,null)	:	"./code1.dump.lines",	17530
+je(17363,0x4122d1,null)	:	"./code1.dump.lines",	17532
+je(17394,0x412253,null)	:	"./code1.dump.lines",	17563
+je(17408,0x4122cc,null)	:	"./code1.dump.lines",	17577
+je(17417,0x4122cc,null)	:	"./code1.dump.lines",	17586
+je(17465,0x412590,null)	:	"./code1.dump.lines",	17636
+je(17476,0x4123c0,null)	:	"./code1.dump.lines",	17647
+je(17482,0x412400,null)	:	"./code1.dump.lines",	17653
+je(17496,0x412448,null)	:	"./code1.dump.lines",	17667
+je(17551,0x4124b0,null)	:	"./code1.dump.lines",	17722
+je(17579,0x412582,null)	:	"./code1.dump.lines",	17750
+je(17597,0x412582,null)	:	"./code1.dump.lines",	17768
+je(17604,0x4124d0,null)	:	"./code1.dump.lines",	17775
+je(17610,0x4125ba,null)	:	"./code1.dump.lines",	17781
+je(17635,0x41262c,null)	:	"./code1.dump.lines",	17810
+je(34210,0x42364e,null)	:	"./code1.dump.lines",	34703
+je(34213,0x423663,null)	:	"./code1.dump.lines",	34706
+je(35043,0x4243a0,null)	:	"./code1.dump.lines",	35552
+je(35047,0x424369,null)	:	"./code1.dump.lines",	35556
+je(35049,0x424388,null)	:	"./code1.dump.lines",	35558
+je(527,0x400bac,null)	:	"./code1.dump.lines",	564
+je(571,0x400c5c,null)	:	"./code1.dump.lines",	610
+je(60515,0x4407b0,null)	:	"./code1.dump.lines",	61118
+je(69357,0x449430,null)	:	"./code1.dump.lines",	70090
+je(69381,0x4493fa,null)	:	"./code1.dump.lines",	70114
+je(69426,0x449540,null)	:	"./code1.dump.lines",	70161
+je(70269,0x44a2d0,null)	:	"./code1.dump.lines",	71034
+je(70294,0x44a27a,null)	:	"./code1.dump.lines",	71059
+je(70296,0x44a27a,null)	:	"./code1.dump.lines",	71061
+je(71992,0x44bb5b,null)	:	"./code1.dump.lines",	72803
+je(71997,0x44bb5c,null)	:	"./code1.dump.lines",	72808
+je(86641,0x45ac98,null)	:	"./code1.dump.lines",	87610
+je(86668,0x45acd8,null)	:	"./code1.dump.lines",	87637
+je(86679,0x45ac76,null)	:	"./code1.dump.lines",	87648
+jmp(12942,0x40dc50,null)	:	"./code1.dump.lines",	13039
+jmp(12958,0x40dd19,null)	:	"./code1.dump.lines",	13057
+jmp(12993,0x40dd90,null)	:	"./code1.dump.lines",	13092
+jmp(13002,0x40dde7,null)	:	"./code1.dump.lines",	13101
+jmp(13020,0x40de42,null)	:	"./code1.dump.lines",	13119
+jmp(13045,0x40dd70,null)	:	"./code1.dump.lines",	13144
+jmp(13053,0x40dd79,null)	:	"./code1.dump.lines",	13152
+jmp(13057,0x40dd82,null)	:	"./code1.dump.lines",	13156
+jmp(13666,0x40e836,null)	:	"./code1.dump.lines",	13773
+jmp(13690,0x40e836,null)	:	"./code1.dump.lines",	13797
+jmp(13707,0x40e836,null)	:	"./code1.dump.lines",	13814
+jmp(13710,0x40e836,null)	:	"./code1.dump.lines",	13817
+jmp(15418,0x410380,null)	:	"./code1.dump.lines",	15565
+jmp(15467,0x410464,null)	:	"./code1.dump.lines",	15614
+jmp(15485,0x41041c,null)	:	"./code1.dump.lines",	15632
+jmp(15489,0x4103d5,null)	:	"./code1.dump.lines",	15636
+jmp(15495,0x410481,null)	:	"./code1.dump.lines",	15642
+jmp(17429,0x4121f1,null)	:	"./code1.dump.lines",	17598
+jmp(17433,0x41220f,null)	:	"./code1.dump.lines",	17602
+jmp(17469,0x4123b5,null)	:	"./code1.dump.lines",	17640
+jmp(17499,0x412390,null)	:	"./code1.dump.lines",	17670
+jmp(17517,0x4123d2,null)	:	"./code1.dump.lines",	17688
+jmp(17531,0x41248b,null)	:	"./code1.dump.lines",	17702
+jmp(17605,0x412582,null)	:	"./code1.dump.lines",	17776
+jmp(17620,0x412369,null)	:	"./code1.dump.lines",	17791
+jmp(17625,0x412420,null)	:	"./code1.dump.lines",	17796
+jmp(21409,rax,null)	:	"./code1.dump.lines",	21666
+jmp(21419,rax,null)	:	"./code1.dump.lines",	21676
+jmp(23,0x424560,null)	:	"./code1.dump.lines",	32
+jmp(29,0x423630,null)	:	"./code1.dump.lines",	38
+jmp(43,0x424330,null)	:	"./code1.dump.lines",	52
+jmp(49,0x423600,null)	:	"./code1.dump.lines",	58
+jmp(564,0x400c43,null)	:	"./code1.dump.lines",	603
+jmp(63976,rcx,null)	:	"./code1.dump.lines",	64591
+jmp(68958,0x448d7f,null)	:	"./code1.dump.lines",	69677
+jmp(68973,0x448d70,null)	:	"./code1.dump.lines",	69692
+jmp(68977,0x448d7e,null)	:	"./code1.dump.lines",	69696
+jmp(69401,0x449417,null)	:	"./code1.dump.lines",	70134
+jmp(69407,0x449417,null)	:	"./code1.dump.lines",	70140
+jmp(69412,0x449496,null)	:	"./code1.dump.lines",	70145
+jmp(69446,0x449510,null)	:	"./code1.dump.lines",	70181
+jmp(69452,0x449529,null)	:	"./code1.dump.lines",	70187
+jmp(69498,0x4495cc,null)	:	"./code1.dump.lines",	70235
+jmp(7,0x423560,null)	:	"./code1.dump.lines",	16
+jmp(70309,0x44a27a,null)	:	"./code1.dump.lines",	71074
+jmp(70315,0x44a29b,null)	:	"./code1.dump.lines",	71080
+jmp(72050,0x44bc38,null)	:	"./code1.dump.lines",	72869
+jmp(72061,0x44bc58,null)	:	"./code1.dump.lines",	72880
+jmp(86714,0x45abae,null)	:	"./code1.dump.lines",	87683
+jmp(86718,0x45abae,null)	:	"./code1.dump.lines",	87687
+jmp(86724,0x45ac76,null)	:	"./code1.dump.lines",	87693
+jmp(86727,0x45abab,null)	:	"./code1.dump.lines",	87696
+jmp(86732,0x45ab00,null)	:	"./code1.dump.lines",	87703
+jmp(88431,0x40e7d0,null)	:	"./code1.dump.lines",	89416
+jne(12934,0x40dc9c,null)	:	"./code1.dump.lines",	13031
+jne(12957,0x40dcff,null)	:	"./code1.dump.lines",	13056
+jne(12969,0x40dd62,null)	:	"./code1.dump.lines",	13068
+jne(12996,0x40dde7,null)	:	"./code1.dump.lines",	13095
+jne(13001,0x40ddcd,null)	:	"./code1.dump.lines",	13100
+jne(13019,0x40de28,null)	:	"./code1.dump.lines",	13118
+jne(13662,0x40e850,null)	:	"./code1.dump.lines",	13769
+jne(13665,0x40e82d,null)	:	"./code1.dump.lines",	13772
+jne(13673,0x40e820,null)	:	"./code1.dump.lines",	13780
+jne(13689,0x40e875,null)	:	"./code1.dump.lines",	13796
+jne(13697,0x40e868,null)	:	"./code1.dump.lines",	13804
+jne(13703,0x40e868,null)	:	"./code1.dump.lines",	13810
+jne(13705,0x40e868,null)	:	"./code1.dump.lines",	13812
+jne(15408,0x410396,null)	:	"./code1.dump.lines",	15555
+jne(15417,0x41036a,null)	:	"./code1.dump.lines",	15564
+jne(15431,0x410478,null)	:	"./code1.dump.lines",	15578
+jne(15445,0x410481,null)	:	"./code1.dump.lines",	15592
+jne(15458,0x410464,null)	:	"./code1.dump.lines",	15605
+jne(15461,0x410464,null)	:	"./code1.dump.lines",	15608
+jne(15466,0x41044e,null)	:	"./code1.dump.lines",	15613
+jne(15494,0x410408,null)	:	"./code1.dump.lines",	15641
+jne(17428,0x4121f7,null)	:	"./code1.dump.lines",	17597
+jne(17458,0x4125a0,null)	:	"./code1.dump.lines",	17629
+jne(17478,0x4123a0,null)	:	"./code1.dump.lines",	17649
+jne(17480,0x4123a0,null)	:	"./code1.dump.lines",	17651
+jne(17502,0x4123c6,null)	:	"./code1.dump.lines",	17673
+jne(17542,0x412480,null)	:	"./code1.dump.lines",	17713
+jne(17553,0x4124f2,null)	:	"./code1.dump.lines",	17724
+jne(17556,0x4125e1,null)	:	"./code1.dump.lines",	17727
+jne(17593,0x412550,null)	:	"./code1.dump.lines",	17764
+jne(17612,0x412369,null)	:	"./code1.dump.lines",	17783
+jne(17619,0x412373,null)	:	"./code1.dump.lines",	17790
+jne(21396,0x416359,null)	:	"./code1.dump.lines",	21653
+jne(35039,0x42439d,null)	:	"./code1.dump.lines",	35548
+jne(35045,0x4243d0,null)	:	"./code1.dump.lines",	35554
+jne(35064,0x42439d,null)	:	"./code1.dump.lines",	35573
+jne(545,0x400c01,null)	:	"./code1.dump.lines",	584
+jne(60531,0x440810,null)	:	"./code1.dump.lines",	61134
+jne(63817,0x443e30,null)	:	"./code1.dump.lines",	64432
+jne(69353,0x449430,null)	:	"./code1.dump.lines",	70086
+jne(69360,0x44945b,null)	:	"./code1.dump.lines",	70093
+jne(69370,0x4494d9,null)	:	"./code1.dump.lines",	70103
+jne(69422,0x449540,null)	:	"./code1.dump.lines",	70157
+jne(69436,0x44957b,null)	:	"./code1.dump.lines",	70171
+jne(69456,0x4495a0,null)	:	"./code1.dump.lines",	70193
+jne(70255,0x44a2b0,null)	:	"./code1.dump.lines",	71020
+jne(71965,0x44bafc,null)	:	"./code1.dump.lines",	72772
+jne(71972,0x44baf4,null)	:	"./code1.dump.lines",	72779
+jne(71994,0x44bb38,null)	:	"./code1.dump.lines",	72805
+jne(72007,0x44bbbf,null)	:	"./code1.dump.lines",	72820
+jne(72042,0x44bc58,null)	:	"./code1.dump.lines",	72861
+jne(86706,0x45acd3,null)	:	"./code1.dump.lines",	87675
+jne(86711,0x45acb0,null)	:	"./code1.dump.lines",	87680
+jne(88430,0x45c7c0,null)	:	"./code1.dump.lines",	89415
+js(86681,0x45ac76,null)	:	"./code1.dump.lines",	87650
+lea(12900,rsi,Memory(ss, 16, rsp(0,8)+128))	:	"./code1.dump.lines",	12997
+lea(12961,rdi,Memory(cs, 8,0x6bb8b0))	:	"./code1.dump.lines",	13060
+lea(13005,rdi,Memory(cs, 8,0x6bb8b0))	:	"./code1.dump.lines",	13104
+lea(13023,rdi,Memory(cs, 8,0x6bb8b0))	:	"./code1.dump.lines",	13122
+lea(13029,rsi,Memory(ss, 8, rsp(0,8)+128))	:	"./code1.dump.lines",	13128
+lea(13033,rdx,Memory(ds, 8, rsi(0,8)+8))	:	"./code1.dump.lines",	13132
+lea(13688,r15,Memory(ds, 2, r14(0,8)-2))	:	"./code1.dump.lines",	13795
+lea(13698,rdi,Memory(ds, 2, rbx(0,8)+2))	:	"./code1.dump.lines",	13805
+lea(13706,rbx,Memory(ds, 1, rbx(0,8)+r14(0,8)*1+1))	:	"./code1.dump.lines",	13813
+lea(15421,rdi,Memory(ds, 4, rdx(0,8)))	:	"./code1.dump.lines",	15568
+lea(15450,rdx,Memory(ds, 8, rax(0,8)+1))	:	"./code1.dump.lines",	15597
+lea(15470,rdi,Memory(ds, 4, rdx(0,8)))	:	"./code1.dump.lines",	15617
+lea(17341,rdi,Memory(cs, 2,0x492a04))	:	"./code1.dump.lines",	17510
+lea(17352,rax,Memory(ss, 8, rbp(0,8)+16))	:	"./code1.dump.lines",	17521
+lea(17357,rax,Memory(ss, 8, rbp(0,8)-80))	:	"./code1.dump.lines",	17526
+lea(17378,rax,Memory(ss, 8, rsp(0,8)+15))	:	"./code1.dump.lines",	17547
+lea(17380,rbx,Memory(ss, 8, rsp(0,8)+15))	:	"./code1.dump.lines",	17549
+lea(17400,r12,Memory(ds, 8, r8(0,8)+rax(0,8)*1))	:	"./code1.dump.lines",	17569
+lea(17411,rdi,Memory(ds, 8, rax(0,8)+4))	:	"./code1.dump.lines",	17580
+lea(17422,rdi,Memory(cs, 4,0x492a17))	:	"./code1.dump.lines",	17591
+lea(17431,rdx,Memory(ds, 8, rax(0,8)+8))	:	"./code1.dump.lines",	17600
+lea(17449,rax,Memory(ss, 8, rbp(0,8)+16))	:	"./code1.dump.lines",	17620
+lea(17455,rax,Memory(ss, 8, rbp(0,8)-96))	:	"./code1.dump.lines",	17626
+lea(17471,rdi,Memory(ds, 4, rax(0,8)+1))	:	"./code1.dump.lines",	17642
+lea(17488,r10d,Memory(ds, 1, rbx(0,8)+1))	:	"./code1.dump.lines",	17659
+lea(17489,rdx,Memory(ss, 1, rsp(0,8)+15))	:	"./code1.dump.lines",	17660
+lea(17526,r12,Memory(ss, 2, rsp(0,8)+15))	:	"./code1.dump.lines",	17697
+lea(17528,rdx,Memory(ds, 2, r12(0,8)+rbx(0,8)*1))	:	"./code1.dump.lines",	17699
+lea(17529,rsi,Memory(ds, 2, r12(0,8)-16))	:	"./code1.dump.lines",	17700
+lea(17557,rsp,Memory(ss, 8, rbp(0,8)-40))	:	"./code1.dump.lines",	17728
+lea(17571,r13,Memory(ds, 4, r8(0,8)+rax(0,8)*1))	:	"./code1.dump.lines",	17742
+lea(17582,rax,Memory(ds, 4, rax(0,8)+4))	:	"./code1.dump.lines",	17753
+lea(17583,edx,Memory(ds, 4, r10(0,8)-1))	:	"./code1.dump.lines",	17754
+lea(17585,r12,Memory(ds, 4, r12(0,8)+rdx(0,8)*1+16))	:	"./code1.dump.lines",	17756
+lea(17607,rdi,Memory(cs, 1,0x492a04))	:	"./code1.dump.lines",	17778
+lea(17613,rdi,Memory(cs, 1,0x492a17))	:	"./code1.dump.lines",	17784
+lea(17623,rdx,Memory(ds, 8, rax(0,8)+8))	:	"./code1.dump.lines",	17794
+lea(17627,rsi,Memory(cs, 2,0x4aa522))	:	"./code1.dump.lines",	17800
+lea(17637,rdi,Memory(cs, 8,0x492a20))	:	"./code1.dump.lines",	17812
+lea(34200,rdx,Memory(cs, 8,0x440860))	:	"./code1.dump.lines",	34691
+lea(34203,rax,Memory(cs, 8,0x4406c0))	:	"./code1.dump.lines",	34694
+lea(34212,rax,Memory(cs, 8,0x429e90))	:	"./code1.dump.lines",	34705
+lea(34215,rax,Memory(cs, 8,0x426ee0))	:	"./code1.dump.lines",	34708
+lea(34216,rdx,Memory(cs, 8,0x428730))	:	"./code1.dump.lines",	34709
+lea(35037,rax,Memory(cs, 8,0x446c30))	:	"./code1.dump.lines",	35546
+lea(35051,rdx,Memory(cs, 8,0x446c80))	:	"./code1.dump.lines",	35560
+lea(35052,rax,Memory(cs, 8,0x446be0))	:	"./code1.dump.lines",	35561
+lea(35057,rax,Memory(cs, 4,0x42d5e0))	:	"./code1.dump.lines",	35566
+lea(35058,rdx,Memory(cs, 8,0x432b50))	:	"./code1.dump.lines",	35567
+lea(35063,rax,Memory(cs, 8,0x438160))	:	"./code1.dump.lines",	35572
+lea(35066,rdx,Memory(cs, 8,0x447410))	:	"./code1.dump.lines",	35575
+lea(35067,rax,Memory(cs, 8,0x4473c0))	:	"./code1.dump.lines",	35576
+lea(35072,rdx,Memory(cs, 8,0x446fd0))	:	"./code1.dump.lines",	35581
+lea(35073,rax,Memory(cs, 8,0x446f90))	:	"./code1.dump.lines",	35582
+lea(35154,rdx,Memory(cs, 8,0x4404d0))	:	"./code1.dump.lines",	35673
+lea(35157,rax,Memory(cs, 8,0x440090))	:	"./code1.dump.lines",	35676
+lea(517,rax,Memory(ss, 8, rbp(0,8)-13))	:	"./code1.dump.lines",	554
+lea(521,rax,Memory(ss, 8, rbp(0,8)-13))	:	"./code1.dump.lines",	558
+lea(540,rdi,Memory(cs, 8,0x492224))	:	"./code1.dump.lines",	579
+lea(546,rdi,Memory(cs, 4,0x49222d))	:	"./code1.dump.lines",	585
+lea(550,rcx,Memory(ss, 8, rbp(0,8)-18))	:	"./code1.dump.lines",	589
+lea(556,rax,Memory(ss, 4, rbp(0,8)-18))	:	"./code1.dump.lines",	595
+lea(561,rax,Memory(ss, 4, rbp(0,8)-18))	:	"./code1.dump.lines",	600
+lea(63973,r11,Memory(cs, 4,0x494d10))	:	"./code1.dump.lines",	64588
+lea(63975,rcx,Memory(ds, 4, r11(0,8)+rcx(0,8)*1))	:	"./code1.dump.lines",	64590
+lea(69373,rax,Memory(ss, 8, rsp(0,8)+112))	:	"./code1.dump.lines",	70106
+lea(69377,rax,Memory(ss, 8, rsp(0,8)+48))	:	"./code1.dump.lines",	70110
+lea(69440,rax,Memory(ss, 8, rsp(0,8)+96))	:	"./code1.dump.lines",	70175
+lea(69444,rax,Memory(ss, 8, rsp(0,8)+32))	:	"./code1.dump.lines",	70179
+lea(72030,rsi,Memory(cs, 8,0x495879))	:	"./code1.dump.lines",	72847
+lea(72038,rbp,Memory(cs, 4,0x495891))	:	"./code1.dump.lines",	72857
+lea(72044,rsi,Memory(cs, 4,0x49589b))	:	"./code1.dump.lines",	72863
+lea(72053,rsi,Memory(cs, 8,0x49589b))	:	"./code1.dump.lines",	72872
+lea(86655,rax,Memory(cs, 8,0x45aaf0))	:	"./code1.dump.lines",	87624
+lea(86669,rdx,Memory(ss, 16, rsp(0,8)+160))	:	"./code1.dump.lines",	87638
+lea(86716,rdx,Memory(ss, 2, rsp(0,8)+160))	:	"./code1.dump.lines",	87685
+lea(86729,eax,Memory(ds, 4, rdi(0,8)-32))	:	"./code1.dump.lines",	87700
+leave(529,null,null)	:	"./code1.dump.lines",	566
+leave(573,null,null)	:	"./code1.dump.lines",	612
+mov(12891,r8d,edi)	:	"./code1.dump.lines",	12988
+mov(12892,r10d,0x8)	:	"./code1.dump.lines",	12989
+mov(12894,r9,rsp)	:	"./code1.dump.lines",	12991
+mov(12895,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	12992
+mov(12896,Memory(ss, 8, rsp(0,8)+264),rax)	:	"./code1.dump.lines",	12993
+mov(12901,rdx,r9)	:	"./code1.dump.lines",	12998
+mov(12903,eax,0xe)	:	"./code1.dump.lines",	13000
+mov(12912,ecx,0x27)	:	"./code1.dump.lines",	13009
+mov(12913,eax,ecx)	:	"./code1.dump.lines",	13010
+mov(12915,rdi,rax)	:	"./code1.dump.lines",	13012
+mov(12916,eax,0xba)	:	"./code1.dump.lines",	13013
+mov(12918,esi,eax)	:	"./code1.dump.lines",	13015
+mov(12919,edx,r8d)	:	"./code1.dump.lines",	13016
+mov(12920,eax,0xea)	:	"./code1.dump.lines",	13017
+mov(12924,r8d,eax)	:	"./code1.dump.lines",	13021
+mov(12925,r10d,0x8)	:	"./code1.dump.lines",	13022
+mov(12927,rsi,r9)	:	"./code1.dump.lines",	13024
+mov(12928,edi,0x2)	:	"./code1.dump.lines",	13025
+mov(12929,eax,0xe)	:	"./code1.dump.lines",	13026
+mov(12931,rcx,Memory(ss, 8, rsp(0,8)+264))	:	"./code1.dump.lines",	13028
+mov(12933,eax,r8d)	:	"./code1.dump.lines",	13030
+mov(12938,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	13035
+mov(12940,r8d,0xffffffff)	:	"./code1.dump.lines",	13037
+mov(12941,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	13038
+mov(12947,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	13046
+mov(12948,Memory(ss, 8, rsp(0,8)+280),rax)	:	"./code1.dump.lines",	13047
+mov(12950,rdx,Memory(fs, 8, 0x10))	:	"./code1.dump.lines",	13049
+mov(12953,esi,0x1)	:	"./code1.dump.lines",	13052
+mov(12965,Memory(cs, 8,0x6bb8b8),rdx)	:	"./code1.dump.lines",	13064
+mov(12966,eax,Memory(cs, 4,0x6bb8c0))	:	"./code1.dump.lines",	13065
+mov(12970,rsi,rsp)	:	"./code1.dump.lines",	13069
+mov(12972,ecx,0x10)	:	"./code1.dump.lines",	13071
+mov(12973,rdi,rsi)	:	"./code1.dump.lines",	13072
+mov(12975,Memory(cs, 4,0x6bb8c0),0x1)	:	"./code1.dump.lines",	13074
+mov(12977,edi,0x1)	:	"./code1.dump.lines",	13076
+mov(12980,eax,Memory(cs, 4,0x6bb8c0))	:	"./code1.dump.lines",	13079
+mov(12995,Memory(cs, 4,0x6bb8c0),0x0)	:	"./code1.dump.lines",	13094
+mov(12997,Memory(cs, 8,0x6bb8b8),0x0)	:	"./code1.dump.lines",	13096
+mov(13009,edi,0x6)	:	"./code1.dump.lines",	13108
+mov(13011,rdx,Memory(fs, 8, 0x10))	:	"./code1.dump.lines",	13110
+mov(13014,esi,0x1)	:	"./code1.dump.lines",	13113
+mov(13027,Memory(cs, 8,0x6bb8b8),rdx)	:	"./code1.dump.lines",	13126
+mov(13031,ecx,0x26)	:	"./code1.dump.lines",	13130
+mov(13032,Memory(cs, 4,0x6bb8c0),0x3)	:	"./code1.dump.lines",	13131
+mov(13034,rdi,rsi)	:	"./code1.dump.lines",	13133
+mov(13036,eax,0xffffffff)	:	"./code1.dump.lines",	13135
+mov(13037,rdi,rdx)	:	"./code1.dump.lines",	13136
+mov(13038,ecx,0x80)	:	"./code1.dump.lines",	13137
+mov(13040,Memory(ss, 4, rsp(0,8)+264),0x0)	:	"./code1.dump.lines",	13139
+mov(13042,edi,0x6)	:	"./code1.dump.lines",	13141
+mov(13044,eax,Memory(cs, 4,0x6bb8c0))	:	"./code1.dump.lines",	13143
+mov(13046,edi,0x7f)	:	"./code1.dump.lines",	13145
+mov(13047,Memory(cs, 4,0x6bb8c0),0x6)	:	"./code1.dump.lines",	13146
+mov(13049,edi,0x6)	:	"./code1.dump.lines",	13148
+mov(13050,Memory(cs, 4,0x6bb8c0),0x4)	:	"./code1.dump.lines",	13149
+mov(13052,eax,Memory(cs, 4,0x6bb8c0))	:	"./code1.dump.lines",	13151
+mov(13054,Memory(cs, 4,0x6bb8c0),0x5)	:	"./code1.dump.lines",	13153
+mov(13056,eax,Memory(cs, 4,0x6bb8c0))	:	"./code1.dump.lines",	13155
+mov(13648,r13,rdi)	:	"./code1.dump.lines",	13755
+mov(13653,rbp,Memory(cs, 8,0x6bbda8))	:	"./code1.dump.lines",	13760
+mov(13656,r14,rax)	:	"./code1.dump.lines",	13763
+mov(13661,rbx,Memory(ss, 8, rbp(0,8)+0))	:	"./code1.dump.lines",	13768
+mov(13669,rbx,Memory(ss, 8, rbp(0,8)+0))	:	"./code1.dump.lines",	13776
+mov(13676,rax,rbx)	:	"./code1.dump.lines",	13783
+mov(13693,rbx,Memory(ss, 8, rbp(0,8)+0))	:	"./code1.dump.lines",	13800
+mov(13699,rdx,r15)	:	"./code1.dump.lines",	13806
+mov(13700,rsi,r13)	:	"./code1.dump.lines",	13807
+mov(15398,r12,rdi)	:	"./code1.dump.lines",	15545
+mov(15403,rbp,Memory(cs, 8,0x6b97a0))	:	"./code1.dump.lines",	15550
+mov(15404,rbx,rax)	:	"./code1.dump.lines",	15551
+mov(15405,eax,Memory(ss, 4, rbp(0,8)+0))	:	"./code1.dump.lines",	15552
+mov(15406,rdi,rbp)	:	"./code1.dump.lines",	15553
+mov(15409,rdx,Memory(ss, 8, rbp(0,8)+136))	:	"./code1.dump.lines",	15556
+mov(15410,r8,Memory(fs, 8, 0x10))	:	"./code1.dump.lines",	15557
+mov(15413,esi,0x1)	:	"./code1.dump.lines",	15560
+mov(15425,rdx,Memory(ss, 8, rbp(0,8)+136))	:	"./code1.dump.lines",	15572
+mov(15426,rdi,Memory(cs, 8,0x6b97a0))	:	"./code1.dump.lines",	15573
+mov(15427,Memory(ds, 8, rdx(0,8)+8),r8)	:	"./code1.dump.lines",	15574
+mov(15429,eax,Memory(ds, 4, rdi(0,8)+192))	:	"./code1.dump.lines",	15576
+mov(15432,Memory(ds, 4, rdi(0,8)+192),0xffffffff)	:	"./code1.dump.lines",	15579
+mov(15433,r13,Memory(ds, 8, rdi(0,8)+216))	:	"./code1.dump.lines",	15580
+mov(15434,rdx,0x6bac20)	:	"./code1.dump.lines",	15581
+mov(15435,rax,0x6bb2c8)	:	"./code1.dump.lines",	15582
+mov(15436,rcx,r13)	:	"./code1.dump.lines",	15583
+mov(15441,rdx,rbx)	:	"./code1.dump.lines",	15588
+mov(15442,rsi,r12)	:	"./code1.dump.lines",	15589
+mov(15446,rdi,Memory(cs, 8,0x6b97a0))	:	"./code1.dump.lines",	15593
+mov(15447,rax,Memory(ds, 8, rdi(0,8)+40))	:	"./code1.dump.lines",	15594
+mov(15451,Memory(ds, 8, rdi(0,8)+40),rdx)	:	"./code1.dump.lines",	15598
+mov(15452,Memory(ds, 1, rax(0,8)),0xa)	:	"./code1.dump.lines",	15599
+mov(15454,eax,0x7fffffff)	:	"./code1.dump.lines",	15601
+mov(15459,rdx,Memory(ss, 8, rbp(0,8)+136))	:	"./code1.dump.lines",	15606
+mov(15462,Memory(ds, 8, rdx(0,8)+8),0x0)	:	"./code1.dump.lines",	15609
+mov(15475,eax,ebx)	:	"./code1.dump.lines",	15622
+mov(15484,ebx,0xffffffff)	:	"./code1.dump.lines",	15631
+mov(15488,rdi,Memory(cs, 8,0x6b97a0))	:	"./code1.dump.lines",	15635
+mov(15491,esi,0xa)	:	"./code1.dump.lines",	15638
+mov(17342,rbp,rsp)	:	"./code1.dump.lines",	17511
+mov(17347,Memory(ss, 8, rbp(0,8)-64),rdx)	:	"./code1.dump.lines",	17516
+mov(17348,Memory(ss, 8, rbp(0,8)-56),rcx)	:	"./code1.dump.lines",	17517
+mov(17349,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	17518
+mov(17350,Memory(ss, 8, rbp(0,8)-88),rax)	:	"./code1.dump.lines",	17519
+mov(17353,Memory(ss, 8, rbp(0,8)-48),r8)	:	"./code1.dump.lines",	17522
+mov(17354,Memory(ss, 8, rbp(0,8)-40),r9)	:	"./code1.dump.lines",	17523
+mov(17355,Memory(ss, 4, rbp(0,8)-112),0x10)	:	"./code1.dump.lines",	17524
+mov(17356,Memory(ss, 8, rbp(0,8)-104),rax)	:	"./code1.dump.lines",	17525
+mov(17358,Memory(ss, 8, rbp(0,8)-96),rax)	:	"./code1.dump.lines",	17527
+mov(17364,r13d,0x2)	:	"./code1.dump.lines",	17533
+mov(17365,edx,Memory(ss, 4, rbp(0,8)-112))	:	"./code1.dump.lines",	17534
+mov(17368,eax,edx)	:	"./code1.dump.lines",	17537
+mov(17371,Memory(ss, 4, rbp(0,8)-112),edx)	:	"./code1.dump.lines",	17540
+mov(17372,r12,Memory(ds, 8, rax(0,8)))	:	"./code1.dump.lines",	17541
+mov(17373,rdi,r12)	:	"./code1.dump.lines",	17542
+mov(17376,r8,rax)	:	"./code1.dump.lines",	17545
+mov(17377,r9d,0x14)	:	"./code1.dump.lines",	17546
+mov(17383,Memory(ds, 8, rax(0,8)),r12)	:	"./code1.dump.lines",	17552
+mov(17384,Memory(ds, 8, rax(0,8)+8),r8)	:	"./code1.dump.lines",	17553
+mov(17385,Memory(ds, 8, rax(0,8)+16),0x0)	:	"./code1.dump.lines",	17554
+mov(17386,Memory(ds, 8, rbx(0,8)),r12)	:	"./code1.dump.lines",	17555
+mov(17387,Memory(ds, 8, rbx(0,8)+8),r8)	:	"./code1.dump.lines",	17556
+mov(17388,edx,0x1)	:	"./code1.dump.lines",	17557
+mov(17389,rsi,rbx)	:	"./code1.dump.lines",	17558
+mov(17390,edi,r13d)	:	"./code1.dump.lines",	17559
+mov(17391,eax,r9d)	:	"./code1.dump.lines",	17560
+mov(17395,rax,Memory(cs, 8,0x6ba1f8))	:	"./code1.dump.lines",	17564
+mov(17398,ecx,0x22)	:	"./code1.dump.lines",	17567
+mov(17399,edx,0x3)	:	"./code1.dump.lines",	17568
+mov(17404,rsi,r12)	:	"./code1.dump.lines",	17573
+mov(17407,r13,rax)	:	"./code1.dump.lines",	17576
+mov(17409,rdx,Memory(ds, 8, rbx(0,8)+8))	:	"./code1.dump.lines",	17578
+mov(17410,rsi,Memory(ds, 8, rbx(0,8)))	:	"./code1.dump.lines",	17579
+mov(17412,Memory(ds, 4, rax(0,8)),r12d)	:	"./code1.dump.lines",	17581
+mov(17414,Memory(ds, 1, rax(0,8)),0x0)	:	"./code1.dump.lines",	17583
+mov(17418,esi,Memory(ds, 4, r13(0,8)+0))	:	"./code1.dump.lines",	17587
+mov(17419,rdi,r13)	:	"./code1.dump.lines",	17588
+mov(17424,esi,0x902)	:	"./code1.dump.lines",	17593
+mov(17427,r13d,eax)	:	"./code1.dump.lines",	17596
+mov(17430,rax,Memory(ss, 8, rbp(0,8)-104))	:	"./code1.dump.lines",	17599
+mov(17432,Memory(ss, 8, rbp(0,8)-104),rdx)	:	"./code1.dump.lines",	17601
+mov(17436,rbp,rsp)	:	"./code1.dump.lines",	17607
+mov(17441,r12,rsi)	:	"./code1.dump.lines",	17612
+mov(17444,Memory(ss, 4, rbp(0,8)-136),edi)	:	"./code1.dump.lines",	17615
+mov(17445,Memory(ss, 8, rbp(0,8)-80),rdx)	:	"./code1.dump.lines",	17616
+mov(17446,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	17617
+mov(17447,Memory(ss, 8, rbp(0,8)-104),rax)	:	"./code1.dump.lines",	17618
+mov(17451,Memory(ss, 8, rbp(0,8)-72),rcx)	:	"./code1.dump.lines",	17622
+mov(17452,Memory(ss, 8, rbp(0,8)-64),r8)	:	"./code1.dump.lines",	17623
+mov(17453,Memory(ss, 8, rbp(0,8)-56),r9)	:	"./code1.dump.lines",	17624
+mov(17454,Memory(ss, 8, rbp(0,8)-120),rax)	:	"./code1.dump.lines",	17625
+mov(17456,Memory(ss, 4, rbp(0,8)-128),0x10)	:	"./code1.dump.lines",	17627
+mov(17457,Memory(ss, 8, rbp(0,8)-112),rax)	:	"./code1.dump.lines",	17628
+mov(17459,Memory(ss, 4, rbp(0,8)-132),0x2)	:	"./code1.dump.lines",	17630
+mov(17463,r15d,0x30)	:	"./code1.dump.lines",	17634
+mov(17467,edx,r13d)	:	"./code1.dump.lines",	17638
+mov(17468,rax,r12)	:	"./code1.dump.lines",	17639
+mov(17472,esi,0x25)	:	"./code1.dump.lines",	17643
+mov(17483,r8,rax)	:	"./code1.dump.lines",	17654
+mov(17484,rcx,r12)	:	"./code1.dump.lines",	17655
+mov(17486,r12,rax)	:	"./code1.dump.lines",	17657
+mov(17491,Memory(ds, 8, rdx(0,8)),rcx)	:	"./code1.dump.lines",	17662
+mov(17492,Memory(ds, 8, rdx(0,8)+8),r8)	:	"./code1.dump.lines",	17663
+mov(17493,Memory(ds, 8, rdx(0,8)+16),r14)	:	"./code1.dump.lines",	17664
+mov(17498,r14,rdx)	:	"./code1.dump.lines",	17669
+mov(17503,edx,Memory(ss, 4, rbp(0,8)-128))	:	"./code1.dump.lines",	17674
+mov(17506,eax,edx)	:	"./code1.dump.lines",	17677
+mov(17509,Memory(ss, 4, rbp(0,8)-128),edx)	:	"./code1.dump.lines",	17680
+mov(17510,rcx,Memory(ds, 8, rax(0,8)))	:	"./code1.dump.lines",	17681
+mov(17512,rdi,rcx)	:	"./code1.dump.lines",	17683
+mov(17513,Memory(ss, 8, rbp(0,8)-144),rcx)	:	"./code1.dump.lines",	17684
+mov(17515,rcx,Memory(ss, 8, rbp(0,8)-144))	:	"./code1.dump.lines",	17686
+mov(17516,r8,rax)	:	"./code1.dump.lines",	17687
+mov(17521,rax,r9)	:	"./code1.dump.lines",	17692
+mov(17530,rbx,r12)	:	"./code1.dump.lines",	17701
+mov(17533,rcx,Memory(ds, 8, r14(0,8)))	:	"./code1.dump.lines",	17704
+mov(17534,r8,Memory(ds, 8, r14(0,8)+8))	:	"./code1.dump.lines",	17705
+mov(17535,r14,Memory(ds, 8, r14(0,8)+16))	:	"./code1.dump.lines",	17706
+mov(17536,Memory(ds, 8, rdx(0,8)+8),r8)	:	"./code1.dump.lines",	17707
+mov(17537,Memory(ds, 8, rdx(0,8)),rcx)	:	"./code1.dump.lines",	17708
+mov(17541,rax,r8)	:	"./code1.dump.lines",	17712
+mov(17543,r13d,0x14)	:	"./code1.dump.lines",	17714
+mov(17545,rdx,r9)	:	"./code1.dump.lines",	17716
+mov(17546,rsi,r12)	:	"./code1.dump.lines",	17717
+mov(17547,edi,Memory(ss, 4, rbp(0,8)-132))	:	"./code1.dump.lines",	17718
+mov(17548,eax,r13d)	:	"./code1.dump.lines",	17719
+mov(17554,rax,Memory(ss, 8, rbp(0,8)-104))	:	"./code1.dump.lines",	17725
+mov(17565,rax,Memory(cs, 8,0x6ba1f8))	:	"./code1.dump.lines",	17736
+mov(17568,ecx,0x22)	:	"./code1.dump.lines",	17739
+mov(17569,edx,0x3)	:	"./code1.dump.lines",	17740
+mov(17570,Memory(ss, 4, rbp(0,8)-132),r10d)	:	"./code1.dump.lines",	17741
+mov(17573,r8d,0xffffffff)	:	"./code1.dump.lines",	17744
+mov(17575,rsi,r13)	:	"./code1.dump.lines",	17746
+mov(17578,r14,rax)	:	"./code1.dump.lines",	17749
+mov(17580,r10d,Memory(ss, 4, rbp(0,8)-132))	:	"./code1.dump.lines",	17751
+mov(17581,Memory(ds, 4, rax(0,8)),r13d)	:	"./code1.dump.lines",	17752
+mov(17587,rdx,Memory(ds, 8, rbx(0,8)+8))	:	"./code1.dump.lines",	17758
+mov(17588,rsi,Memory(ds, 8, rbx(0,8)))	:	"./code1.dump.lines",	17759
+mov(17589,rdi,rax)	:	"./code1.dump.lines",	17760
+mov(17594,Memory(ds, 1, rax(0,8)),0x0)	:	"./code1.dump.lines",	17765
+mov(17598,esi,Memory(ds, 4, r14(0,8)))	:	"./code1.dump.lines",	17769
+mov(17599,rdi,r14)	:	"./code1.dump.lines",	17770
+mov(17615,esi,0x902)	:	"./code1.dump.lines",	17786
+mov(17618,Memory(ss, 4, rbp(0,8)-132),eax)	:	"./code1.dump.lines",	17789
+mov(17622,rax,Memory(ss, 8, rbp(0,8)-120))	:	"./code1.dump.lines",	17793
+mov(17624,Memory(ss, 8, rbp(0,8)-120),rdx)	:	"./code1.dump.lines",	17795
+mov(17628,rdx,rdi)	:	"./code1.dump.lines",	17801
+mov(17630,edi,0x3)	:	"./code1.dump.lines",	17803
+mov(21394,eax,Memory(ds, 4, rdi(0,8)+192))	:	"./code1.dump.lines",	21651
+mov(21397,Memory(ds, 4, rdi(0,8)+192),0xffffffff)	:	"./code1.dump.lines",	21654
+mov(21398,rbx,Memory(ds, 8, rdi(0,8)+216))	:	"./code1.dump.lines",	21655
+mov(21399,rdx,0x6bac20)	:	"./code1.dump.lines",	21656
+mov(21400,rax,0x6bb2c8)	:	"./code1.dump.lines",	21657
+mov(21401,rcx,rbx)	:	"./code1.dump.lines",	21658
+mov(21406,rax,Memory(ds, 8, rbx(0,8)+24))	:	"./code1.dump.lines",	21663
+mov(21411,Memory(ss, 4, rsp(0,8)+12),esi)	:	"./code1.dump.lines",	21668
+mov(21412,Memory(ss, 8, rsp(0,8)),rdi)	:	"./code1.dump.lines",	21669
+mov(21414,rax,Memory(ds, 8, rbx(0,8)+24))	:	"./code1.dump.lines",	21671
+mov(21415,esi,Memory(ss, 4, rsp(0,8)+12))	:	"./code1.dump.lines",	21672
+mov(21416,rdi,Memory(ss, 8, rsp(0,8)))	:	"./code1.dump.lines",	21673
+mov(34199,eax,Memory(cs, 4,0x6bbe2c))	:	"./code1.dump.lines",	34690
+mov(34208,edx,Memory(cs, 4,0x6bbdf0))	:	"./code1.dump.lines",	34701
+mov(35036,edx,Memory(cs, 4,0x6bbe2c))	:	"./code1.dump.lines",	35545
+mov(35040,eax,edx)	:	"./code1.dump.lines",	35549
+mov(35153,eax,Memory(cs, 4,0x6bbe2c))	:	"./code1.dump.lines",	35672
+mov(510,rbp,rsp)	:	"./code1.dump.lines",	547
+mov(512,Memory(ss, 8, rbp(0,8)-24),rdi)	:	"./code1.dump.lines",	549
+mov(513,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	550
+mov(514,Memory(ss, 8, rbp(0,8)-8),rax)	:	"./code1.dump.lines",	551
+mov(516,rdx,Memory(ss, 8, rbp(0,8)-24))	:	"./code1.dump.lines",	553
+mov(518,rsi,rdx)	:	"./code1.dump.lines",	555
+mov(519,rdi,rax)	:	"./code1.dump.lines",	556
+mov(522,rdi,rax)	:	"./code1.dump.lines",	559
+mov(525,rax,Memory(ss, 8, rbp(0,8)-8))	:	"./code1.dump.lines",	562
+mov(532,rbp,rsp)	:	"./code1.dump.lines",	571
+mov(534,Memory(ss, 4, rbp(0,8)-36),edi)	:	"./code1.dump.lines",	573
+mov(535,Memory(ss, 8, rbp(0,8)-48),rsi)	:	"./code1.dump.lines",	574
+mov(536,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	575
+mov(537,Memory(ss, 8, rbp(0,8)-8),rax)	:	"./code1.dump.lines",	576
+mov(539,esi,0x0)	:	"./code1.dump.lines",	578
+mov(541,eax,0x0)	:	"./code1.dump.lines",	580
+mov(543,Memory(ss, 4, rbp(0,8)-24),eax)	:	"./code1.dump.lines",	582
+mov(548,edi,0x1)	:	"./code1.dump.lines",	587
+mov(551,eax,Memory(ss, 4, rbp(0,8)-24))	:	"./code1.dump.lines",	590
+mov(552,edx,0xa)	:	"./code1.dump.lines",	591
+mov(553,rsi,rcx)	:	"./code1.dump.lines",	592
+mov(554,edi,eax)	:	"./code1.dump.lines",	593
+mov(557,rdi,rax)	:	"./code1.dump.lines",	596
+mov(562,rdi,rax)	:	"./code1.dump.lines",	601
+mov(568,eax,0x0)	:	"./code1.dump.lines",	607
+mov(569,rdx,Memory(ss, 8, rbp(0,8)-8))	:	"./code1.dump.lines",	608
+mov(60462,rax,rdi)	:	"./code1.dump.lines",	61065
+mov(60463,rcx,rdi)	:	"./code1.dump.lines",	61066
+mov(60510,rcx,rdi)	:	"./code1.dump.lines",	61113
+mov(63800,rcx,rsi)	:	"./code1.dump.lines",	64415
+mov(63801,rax,rdi)	:	"./code1.dump.lines",	64416
+mov(64034,ecx,Memory(ds, 4, rsi(0,8)))	:	"./code1.dump.lines",	64649
+mov(64035,edx,Memory(ds, 4, rsi(0,8)+3))	:	"./code1.dump.lines",	64650
+mov(64036,Memory(ds, 4, rdi),ecx)	:	"./code1.dump.lines",	64651
+mov(64037,Memory(ds, 4, rdi(0,8)+3),edx)	:	"./code1.dump.lines",	64652
+mov(68954,edx,edi)	:	"./code1.dump.lines",	69673
+mov(68955,r9,0xffffffffffffffc0)	:	"./code1.dump.lines",	69674
+mov(68956,r8d,0xe7)	:	"./code1.dump.lines",	69675
+mov(68957,esi,0x3c)	:	"./code1.dump.lines",	69676
+mov(68960,edi,edx)	:	"./code1.dump.lines",	69679
+mov(68961,eax,esi)	:	"./code1.dump.lines",	69680
+mov(68966,edi,edx)	:	"./code1.dump.lines",	69685
+mov(68967,eax,r8d)	:	"./code1.dump.lines",	69686
+mov(68972,Memory(fs, 4, r9(0,8)),eax)	:	"./code1.dump.lines",	69691
+mov(68976,Memory(fs, 4, r9(0,8)),eax)	:	"./code1.dump.lines",	69695
+mov(69347,r10d,esi)	:	"./code1.dump.lines",	70080
+mov(69348,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	70081
+mov(69349,Memory(ss, 8, rsp(0,8)+40),rax)	:	"./code1.dump.lines",	70082
+mov(69352,Memory(ss, 8, rsp(0,8)+64),rdx)	:	"./code1.dump.lines",	70085
+mov(69354,eax,esi)	:	"./code1.dump.lines",	70087
+mov(69358,eax,Memory(cs, 4,0x6bc80c))	:	"./code1.dump.lines",	70091
+mov(69361,edx,esi)	:	"./code1.dump.lines",	70094
+mov(69362,eax,0x101)	:	"./code1.dump.lines",	70095
+mov(69363,rsi,rdi)	:	"./code1.dump.lines",	70096
+mov(69364,edi,0xffffff9c)	:	"./code1.dump.lines",	70097
+mov(69368,rcx,Memory(ss, 8, rsp(0,8)+40))	:	"./code1.dump.lines",	70101
+mov(69374,Memory(ss, 4, rsp(0,8)+16),0x10)	:	"./code1.dump.lines",	70107
+mov(69375,r10d,Memory(ss, 4, rsp(0,8)+64))	:	"./code1.dump.lines",	70108
+mov(69376,Memory(ss, 8, rsp(0,8)+24),rax)	:	"./code1.dump.lines",	70109
+mov(69378,Memory(ss, 8, rsp(0,8)+32),rax)	:	"./code1.dump.lines",	70111
+mov(69379,eax,Memory(cs, 4,0x6bc80c))	:	"./code1.dump.lines",	70112
+mov(69382,Memory(ss, 4, rsp(0,8)+12),esi)	:	"./code1.dump.lines",	70115
+mov(69383,Memory(ss, 8, rsp(0,8)),rdi)	:	"./code1.dump.lines",	70116
+mov(69384,Memory(ss, 4, rsp(0,8)+8),r10d)	:	"./code1.dump.lines",	70117
+mov(69386,esi,Memory(ss, 4, rsp(0,8)+12))	:	"./code1.dump.lines",	70119
+mov(69387,rdi,Memory(ss, 8, rsp(0,8)))	:	"./code1.dump.lines",	70120
+mov(69388,r8d,eax)	:	"./code1.dump.lines",	70121
+mov(69389,r10d,Memory(ss, 4, rsp(0,8)+8))	:	"./code1.dump.lines",	70122
+mov(69390,eax,0x101)	:	"./code1.dump.lines",	70123
+mov(69391,edx,esi)	:	"./code1.dump.lines",	70124
+mov(69392,rsi,rdi)	:	"./code1.dump.lines",	70125
+mov(69393,edi,0xffffff9c)	:	"./code1.dump.lines",	70126
+mov(69397,edi,r8d)	:	"./code1.dump.lines",	70130
+mov(69398,Memory(ss, 4, rsp(0,8)+8),eax)	:	"./code1.dump.lines",	70131
+mov(69400,eax,Memory(ss, 4, rsp(0,8)+8))	:	"./code1.dump.lines",	70133
+mov(69403,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	70136
+mov(69405,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	70138
+mov(69406,eax,0xffffffff)	:	"./code1.dump.lines",	70139
+mov(69408,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	70141
+mov(69410,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	70143
+mov(69411,eax,0xffffffff)	:	"./code1.dump.lines",	70144
+mov(69416,r10d,esi)	:	"./code1.dump.lines",	70151
+mov(69417,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	70152
+mov(69418,Memory(ss, 8, rsp(0,8)+24),rax)	:	"./code1.dump.lines",	70153
+mov(69421,Memory(ss, 8, rsp(0,8)+48),rdx)	:	"./code1.dump.lines",	70156
+mov(69423,eax,esi)	:	"./code1.dump.lines",	70158
+mov(69427,edx,esi)	:	"./code1.dump.lines",	70162
+mov(69428,eax,0x101)	:	"./code1.dump.lines",	70163
+mov(69429,rsi,rdi)	:	"./code1.dump.lines",	70164
+mov(69430,edi,0xffffff9c)	:	"./code1.dump.lines",	70165
+mov(69434,rcx,Memory(ss, 8, rsp(0,8)+24))	:	"./code1.dump.lines",	70169
+mov(69441,Memory(ss, 4, rsp(0,8)),0x10)	:	"./code1.dump.lines",	70176
+mov(69442,r10d,Memory(ss, 4, rsp(0,8)+48))	:	"./code1.dump.lines",	70177
+mov(69443,Memory(ss, 8, rsp(0,8)+8),rax)	:	"./code1.dump.lines",	70178
+mov(69445,Memory(ss, 8, rsp(0,8)+16),rax)	:	"./code1.dump.lines",	70180
+mov(69448,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	70183
+mov(69450,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	70185
+mov(69451,eax,0xffffffff)	:	"./code1.dump.lines",	70186
+mov(69454,eax,Memory(cs, 4,0x6bc80c))	:	"./code1.dump.lines",	70191
+mov(69465,r12,rdx)	:	"./code1.dump.lines",	70202
+mov(69467,rbp,rsi)	:	"./code1.dump.lines",	70204
+mov(69468,ebx,edi)	:	"./code1.dump.lines",	70205
+mov(69471,rdx,r12)	:	"./code1.dump.lines",	70208
+mov(69472,r8d,eax)	:	"./code1.dump.lines",	70209
+mov(69473,rsi,rbp)	:	"./code1.dump.lines",	70210
+mov(69474,edi,ebx)	:	"./code1.dump.lines",	70211
+mov(69479,edi,r8d)	:	"./code1.dump.lines",	70216
+mov(69480,Memory(ss, 8, rsp(0,8)+8),rax)	:	"./code1.dump.lines",	70217
+mov(69482,rax,Memory(ss, 8, rsp(0,8)+8))	:	"./code1.dump.lines",	70219
+mov(69494,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	70231
+mov(69496,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	70233
+mov(69497,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	70234
+mov(70258,r15d,r8d)	:	"./code1.dump.lines",	71023
+mov(70260,r14d,ecx)	:	"./code1.dump.lines",	71025
+mov(70262,r13,rsi)	:	"./code1.dump.lines",	71027
+mov(70264,r12d,edx)	:	"./code1.dump.lines",	71029
+mov(70266,rbp,rdi)	:	"./code1.dump.lines",	71031
+mov(70268,rbx,r9)	:	"./code1.dump.lines",	71033
+mov(70270,r9,rbx)	:	"./code1.dump.lines",	71035
+mov(70271,r8d,r15d)	:	"./code1.dump.lines",	71036
+mov(70272,r10d,r14d)	:	"./code1.dump.lines",	71037
+mov(70273,edx,r12d)	:	"./code1.dump.lines",	71038
+mov(70274,rsi,r13)	:	"./code1.dump.lines",	71039
+mov(70275,rdi,rbp)	:	"./code1.dump.lines",	71040
+mov(70276,eax,0x9)	:	"./code1.dump.lines",	71041
+mov(70288,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	71053
+mov(70289,Memory(fs, 4, rax(0,8)),0x16)	:	"./code1.dump.lines",	71054
+mov(70290,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	71055
+mov(70297,r10d,ecx)	:	"./code1.dump.lines",	71062
+mov(70298,ecx,0x9)	:	"./code1.dump.lines",	71063
+mov(70301,eax,ecx)	:	"./code1.dump.lines",	71066
+mov(70304,rdx,rax)	:	"./code1.dump.lines",	71069
+mov(70306,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	71071
+mov(70308,Memory(fs, 4, rax(0,8)),edx)	:	"./code1.dump.lines",	71073
+mov(70311,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	71076
+mov(70313,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	71078
+mov(70314,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	71079
+mov(70317,eax,0xb)	:	"./code1.dump.lines",	71084
+mov(70322,rcx,0xffffffffffffffc0)	:	"./code1.dump.lines",	71089
+mov(70324,Memory(fs, 4, rcx(0,8)),eax)	:	"./code1.dump.lines",	71091
+mov(71962,edx,0x2)	:	"./code1.dump.lines",	72769
+mov(71963,esi,0x80)	:	"./code1.dump.lines",	72770
+mov(71967,eax,0xca)	:	"./code1.dump.lines",	72774
+mov(71969,eax,edx)	:	"./code1.dump.lines",	72776
+mov(71979,Memory(ds, 4, rdi(0,8)),0x0)	:	"./code1.dump.lines",	72788
+mov(71980,esi,0x81)	:	"./code1.dump.lines",	72789
+mov(71981,edx,0x1)	:	"./code1.dump.lines",	72790
+mov(71982,eax,0xca)	:	"./code1.dump.lines",	72791
+mov(71988,eax,Memory(fs, 4, 0x308))	:	"./code1.dump.lines",	72799
+mov(71989,r11d,eax)	:	"./code1.dump.lines",	72800
+mov(72000,Memory(fs, 8, 0x630),0xffffffffffffffff)	:	"./code1.dump.lines",	72811
+mov(72002,rdi,Memory(fs, 8, 0x300))	:	"./code1.dump.lines",	72813
+mov(72039,rbx,rsi)	:	"./code1.dump.lines",	72858
+mov(72045,rcx,rbp)	:	"./code1.dump.lines",	72864
+mov(72046,rdx,rbx)	:	"./code1.dump.lines",	72865
+mov(72047,edi,0x1)	:	"./code1.dump.lines",	72866
+mov(72052,rax,Memory(cs, 8,0x6bc920))	:	"./code1.dump.lines",	72871
+mov(72054,rdx,rbx)	:	"./code1.dump.lines",	72873
+mov(72055,edi,0x3)	:	"./code1.dump.lines",	72874
+mov(72056,rcx,Memory(ds, 8, rax(0,8)))	:	"./code1.dump.lines",	72875
+mov(86636,r8,rdx)	:	"./code1.dump.lines",	87605
+mov(86637,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	87606
+mov(86638,Memory(ss, 8, rsp(0,8)+312),rax)	:	"./code1.dump.lines",	87607
+mov(86643,rcx,rsp)	:	"./code1.dump.lines",	87612
+mov(86644,rax,Memory(ds, 8, rsi(0,8)))	:	"./code1.dump.lines",	87613
+mov(86647,Memory(ss, 8, rsp(0,8)),rax)	:	"./code1.dump.lines",	87616
+mov(86648,eax,Memory(ds, 4, rsi(0,8)+136))	:	"./code1.dump.lines",	87617
+mov(86654,Memory(ss, 8, rsp(0,8)+8),rax)	:	"./code1.dump.lines",	87623
+mov(86657,Memory(ss, 8, rsp(0,8)+16),rax)	:	"./code1.dump.lines",	87626
+mov(86670,rsi,rcx)	:	"./code1.dump.lines",	87639
+mov(86671,ecx,0xd)	:	"./code1.dump.lines",	87640
+mov(86672,r10d,0x8)	:	"./code1.dump.lines",	87641
+mov(86673,eax,ecx)	:	"./code1.dump.lines",	87642
+mov(86676,rdx,rax)	:	"./code1.dump.lines",	87645
+mov(86683,rdx,Memory(ss, 8, rsp(0,8)+160))	:	"./code1.dump.lines",	87652
+mov(86686,Memory(ds, 8, r8(0,8)),rdx)	:	"./code1.dump.lines",	87655
+mov(86687,rdx,Memory(ss, 8, rsp(0,8)+168))	:	"./code1.dump.lines",	87656
+mov(86690,Memory(ds, 4, r8(0,8)+136),edx)	:	"./code1.dump.lines",	87659
+mov(86691,rdx,Memory(ss, 8, rsp(0,8)+176))	:	"./code1.dump.lines",	87660
+mov(86694,Memory(ds, 8, r8(0,8)+144),rdx)	:	"./code1.dump.lines",	87663
+mov(86704,rcx,Memory(ss, 8, rsp(0,8)+312))	:	"./code1.dump.lines",	87673
+mov(86720,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	87689
+mov(86722,Memory(fs, 4, rax(0,8)),edx)	:	"./code1.dump.lines",	87691
+mov(86723,eax,0xffffffff)	:	"./code1.dump.lines",	87692
+mov(86734,rax,0xffffffffffffffc0)	:	"./code1.dump.lines",	87705
+mov(86735,Memory(fs, 4, rax(0,8)),0x16)	:	"./code1.dump.lines",	87706
+mov(86736,eax,0xffffffff)	:	"./code1.dump.lines",	87707
+mov(86740,r10d,0x8)	:	"./code1.dump.lines",	87713
+mov(86741,eax,0xe)	:	"./code1.dump.lines",	87714
+mov(86747,rdx,0xffffffffffffffc0)	:	"./code1.dump.lines",	87720
+mov(86749,Memory(fs, 4, rdx(0,8)),eax)	:	"./code1.dump.lines",	87722
+mov(86750,eax,0xffffffff)	:	"./code1.dump.lines",	87723
+mov(88428,eax,Memory(cs, 4,0x6b8ab8))	:	"./code1.dump.lines",	89413
+movaps(12898,Memory(ss, 16, rsp(0,8)+128),xmm0)	:	"./code1.dump.lines",	12995
+movaps(12904,Memory(ss, 16, rsp(0,8)+144),xmm0)	:	"./code1.dump.lines",	13001
+movaps(12905,Memory(ss, 16, rsp(0,8)+160),xmm0)	:	"./code1.dump.lines",	13002
+movaps(12906,Memory(ss, 16, rsp(0,8)+176),xmm0)	:	"./code1.dump.lines",	13003
+movaps(12907,Memory(ss, 16, rsp(0,8)+192),xmm0)	:	"./code1.dump.lines",	13004
+movaps(12908,Memory(ss, 16, rsp(0,8)+208),xmm0)	:	"./code1.dump.lines",	13005
+movaps(12909,Memory(ss, 16, rsp(0,8)+224),xmm0)	:	"./code1.dump.lines",	13006
+movaps(12910,Memory(ss, 16, rsp(0,8)+240),xmm0)	:	"./code1.dump.lines",	13007
+movdqa(12893,xmm0,Memory(cs, 16,0x492980))	:	"./code1.dump.lines",	12990
+movdqa(60524,xmm0,Memory(ds, 16, rax(0,8)+64))	:	"./code1.dump.lines",	61127
+movdqu(86642,xmm0,Memory(ds, 16, rsi(0,8)+8))	:	"./code1.dump.lines",	87611
+movdqu(86646,xmm0,Memory(ds, 16, rsi(0,8)+24))	:	"./code1.dump.lines",	87615
+movdqu(86653,xmm0,Memory(ds, 16, rsi(0,8)+40))	:	"./code1.dump.lines",	87622
+movdqu(86658,xmm0,Memory(ds, 16, rsi(0,8)+56))	:	"./code1.dump.lines",	87627
+movdqu(86660,xmm0,Memory(ds, 16, rsi(0,8)+72))	:	"./code1.dump.lines",	87629
+movdqu(86662,xmm0,Memory(ds, 16, rsi(0,8)+88))	:	"./code1.dump.lines",	87631
+movdqu(86664,xmm0,Memory(ds, 16, rsi(0,8)+104))	:	"./code1.dump.lines",	87633
+movdqu(86666,xmm0,Memory(ds, 16, rsi(0,8)+120))	:	"./code1.dump.lines",	87635
+movdqu(86682,xmm0,Memory(ss, 16, rsp(0,8)+184))	:	"./code1.dump.lines",	87651
+movdqu(86685,xmm0,Memory(ss, 16, rsp(0,8)+200))	:	"./code1.dump.lines",	87654
+movdqu(86689,xmm0,Memory(ss, 16, rsp(0,8)+216))	:	"./code1.dump.lines",	87658
+movdqu(86693,xmm0,Memory(ss, 16, rsp(0,8)+232))	:	"./code1.dump.lines",	87662
+movdqu(86696,xmm0,Memory(ss, 16, rsp(0,8)+248))	:	"./code1.dump.lines",	87665
+movdqu(86698,xmm0,Memory(ss, 16, rsp(0,8)+264))	:	"./code1.dump.lines",	87667
+movdqu(86700,xmm0,Memory(ss, 16, rsp(0,8)+280))	:	"./code1.dump.lines",	87669
+movdqu(86702,xmm0,Memory(ss, 16, rsp(0,8)+296))	:	"./code1.dump.lines",	87671
+movsxd(17497,rbx,r10d)	:	"./code1.dump.lines",	17668
+movsxd(17519,r9,r10d)	:	"./code1.dump.lines",	17690
+movsxd(63974,rcx,Memory(ds, 4, r11(0,8)+rdx(0,8)*4))	:	"./code1.dump.lines",	64589
+movups(86645,Memory(ss, 16, rsp(0,8)+24),xmm0)	:	"./code1.dump.lines",	87614
+movups(86649,Memory(ds, 16, rcx(0,8)+40),xmm0)	:	"./code1.dump.lines",	87618
+movups(86656,Memory(ds, 16, rcx(0,8)+56),xmm0)	:	"./code1.dump.lines",	87625
+movups(86659,Memory(ds, 16, rcx(0,8)+72),xmm0)	:	"./code1.dump.lines",	87628
+movups(86661,Memory(ds, 16, rcx(0,8)+88),xmm0)	:	"./code1.dump.lines",	87630
+movups(86663,Memory(ds, 16, rcx(0,8)+104),xmm0)	:	"./code1.dump.lines",	87632
+movups(86665,Memory(ds, 16, rcx(0,8)+120),xmm0)	:	"./code1.dump.lines",	87634
+movups(86667,Memory(ds, 16, rcx(0,8)+136),xmm0)	:	"./code1.dump.lines",	87636
+movups(86684,Memory(ds, 16, r8(0,8)+8),xmm0)	:	"./code1.dump.lines",	87653
+movups(86688,Memory(ds, 16, r8(0,8)+24),xmm0)	:	"./code1.dump.lines",	87657
+movups(86692,Memory(ds, 16, r8(0,8)+40),xmm0)	:	"./code1.dump.lines",	87661
+movups(86695,Memory(ds, 16, r8(0,8)+56),xmm0)	:	"./code1.dump.lines",	87664
+movups(86697,Memory(ds, 16, r8(0,8)+72),xmm0)	:	"./code1.dump.lines",	87666
+movups(86699,Memory(ds, 16, r8(0,8)+88),xmm0)	:	"./code1.dump.lines",	87668
+movups(86701,Memory(ds, 16, r8(0,8)+104),xmm0)	:	"./code1.dump.lines",	87670
+movups(86703,Memory(ds, 16, r8(0,8)+120),xmm0)	:	"./code1.dump.lines",	87672
+movzx(13657,eax,Memory(ds, 1, r13(0,8)+0))	:	"./code1.dump.lines",	13764
+movzx(13685,r12d,Memory(ds, 2, r13(0,8)+0))	:	"./code1.dump.lines",	13792
+movzx(17460,r13d,Memory(ds, 1, r12(0,8)))	:	"./code1.dump.lines",	17631
+movzx(17474,edx,Memory(ds, 1, rax(0,8)))	:	"./code1.dump.lines",	17645
+movzx(17494,r13d,Memory(ds, 1, r12(0,8)))	:	"./code1.dump.lines",	17665
+neg(12939,eax,null)	:	"./code1.dump.lines",	13036
+neg(17401,rax,null)	:	"./code1.dump.lines",	17570
+neg(17572,rax,null)	:	"./code1.dump.lines",	17743
+neg(68971,eax,null)	:	"./code1.dump.lines",	69690
+neg(68975,eax,null)	:	"./code1.dump.lines",	69694
+neg(69404,eax,null)	:	"./code1.dump.lines",	70137
+neg(69409,eax,null)	:	"./code1.dump.lines",	70142
+neg(69449,eax,null)	:	"./code1.dump.lines",	70184
+neg(69495,eax,null)	:	"./code1.dump.lines",	70232
+neg(70307,edx,null)	:	"./code1.dump.lines",	71072
+neg(70312,eax,null)	:	"./code1.dump.lines",	71077
+neg(70323,eax,null)	:	"./code1.dump.lines",	71090
+neg(86721,edx,null)	:	"./code1.dump.lines",	87690
+neg(86748,eax,null)	:	"./code1.dump.lines",	87721
+nop(12944,Memory(cs, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	13041
+nop(12945,Memory(ds, 4, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	13042
+nop(12991,Memory(ds, 4, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	13090
+nop(17466,Memory(ds, 4, rax(0,8)+0),null)	:	"./code1.dump.lines",	17637
+nop(17544,Memory(ds, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	17715
+nop(17586,Memory(ds, 4, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	17757
+nop(17602,Memory(ds, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	17773
+nop(17633,Memory(ds, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	17806
+nop(17640,Memory(ds, 4, rax(0,8)+0),null)	:	"./code1.dump.lines",	17815
+nop(524,null,null)	:	"./code1.dump.lines",	561
+nop(60523,Memory(ds, 4, rax(0,8)+0),null)	:	"./code1.dump.lines",	61126
+nop(71966,null,null)	:	"./code1.dump.lines",	72773
+nop(72005,Memory(cs, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	72816
+nop(72034,Memory(cs, 2, rax(0,8)+rax(0,8)*1+0),null)	:	"./code1.dump.lines",	72851
+nop(72035,Memory(ds, 4, rax(0,8)+0),null)	:	"./code1.dump.lines",	72852
+nop(72043,Memory(ds, 4, rax(0,8)),null)	:	"./code1.dump.lines",	72862
+or(12978,Memory(ss, 8, rsp(0,8)),0x20)	:	"./code1.dump.lines",	13077
+or(13663,ah,0x3d)	:	"./code1.dump.lines",	13770
+or(17402,r8d,0xffffffff)	:	"./code1.dump.lines",	17571
+or(60506,rdx,rsi)	:	"./code1.dump.lines",	61109
+or(60507,rcx,r8)	:	"./code1.dump.lines",	61110
+or(60509,rdx,rcx)	:	"./code1.dump.lines",	61112
+or(60556,rdx,rsi)	:	"./code1.dump.lines",	61159
+or(60557,rcx,r8)	:	"./code1.dump.lines",	61160
+or(60559,rdx,rcx)	:	"./code1.dump.lines",	61162
+or(70300,r10d,0x40)	:	"./code1.dump.lines",	71065
+or(70325,rax,0xffffffffffffffff)	:	"./code1.dump.lines",	71092
+or(71990,r11d,0x2)	:	"./code1.dump.lines",	72801
+or(72001,Memory(fs, 4, 0x308),0x10)	:	"./code1.dump.lines",	72812
+or(86650,eax,0x4000000)	:	"./code1.dump.lines",	87619
+pcmpeqb(60496,xmm0,Memory(ds, 16, rax(0,8)))	:	"./code1.dump.lines",	61099
+pcmpeqb(60497,xmm1,Memory(ds, 16, rax(0,8)+16))	:	"./code1.dump.lines",	61100
+pcmpeqb(60498,xmm2,Memory(ds, 16, rax(0,8)+32))	:	"./code1.dump.lines",	61101
+pcmpeqb(60499,xmm3,Memory(ds, 16, rax(0,8)+48))	:	"./code1.dump.lines",	61102
+pcmpeqb(60528,xmm0,xmm3)	:	"./code1.dump.lines",	61131
+pcmpeqb(60546,xmm0,Memory(ds, 16, rax(0,8)))	:	"./code1.dump.lines",	61149
+pcmpeqb(60547,xmm1,Memory(ds, 16, rax(0,8)+16))	:	"./code1.dump.lines",	61150
+pcmpeqb(60548,xmm2,Memory(ds, 16, rax(0,8)+32))	:	"./code1.dump.lines",	61151
+pcmpeqb(60549,xmm3,Memory(ds, 16, rax(0,8)+48))	:	"./code1.dump.lines",	61152
+pcmpeqb(63809,xmm1,Memory(ds, 16, rsi(0,8)))	:	"./code1.dump.lines",	64424
+pcmpeqb(63814,xmm0,Memory(ds, 16, rsi(0,8)+16))	:	"./code1.dump.lines",	64429
+pcmpeqd(12899,xmm0,xmm0)	:	"./code1.dump.lines",	12996
+pminub(60525,xmm0,Memory(ds, 16, rax(0,8)+80))	:	"./code1.dump.lines",	61128
+pminub(60526,xmm0,Memory(ds, 16, rax(0,8)+96))	:	"./code1.dump.lines",	61129
+pminub(60527,xmm0,Memory(ds, 16, rax(0,8)+112))	:	"./code1.dump.lines",	61130
+pmovmskb(60500,esi,xmm0)	:	"./code1.dump.lines",	61103
+pmovmskb(60501,edx,xmm1)	:	"./code1.dump.lines",	61104
+pmovmskb(60502,r8d,xmm2)	:	"./code1.dump.lines",	61105
+pmovmskb(60503,ecx,xmm3)	:	"./code1.dump.lines",	61106
+pmovmskb(60529,edx,xmm0)	:	"./code1.dump.lines",	61132
+pmovmskb(60550,esi,xmm0)	:	"./code1.dump.lines",	61153
+pmovmskb(60551,edx,xmm1)	:	"./code1.dump.lines",	61154
+pmovmskb(60552,r8d,xmm2)	:	"./code1.dump.lines",	61155
+pmovmskb(60553,ecx,xmm3)	:	"./code1.dump.lines",	61156
+pmovmskb(63810,edx,xmm1)	:	"./code1.dump.lines",	64425
+pmovmskb(63815,edx,xmm0)	:	"./code1.dump.lines",	64430
+pxor(60458,xmm0,xmm0)	:	"./code1.dump.lines",	61061
+pxor(60459,xmm1,xmm1)	:	"./code1.dump.lines",	61062
+pxor(60460,xmm2,xmm2)	:	"./code1.dump.lines",	61063
+pxor(60461,xmm3,xmm3)	:	"./code1.dump.lines",	61064
+pxor(60520,xmm1,xmm1)	:	"./code1.dump.lines",	61123
+pxor(60521,xmm2,xmm2)	:	"./code1.dump.lines",	61124
+pxor(60522,xmm3,xmm3)	:	"./code1.dump.lines",	61125
+pxor(60545,xmm0,xmm0)	:	"./code1.dump.lines",	61148
+pxor(63807,xmm0,xmm0)	:	"./code1.dump.lines",	64422
+pxor(63808,xmm1,xmm1)	:	"./code1.dump.lines",	64423
+sar(60513,rdx,cl)	:	"./code1.dump.lines",	61116
+shl(17520,rbx,0x4)	:	"./code1.dump.lines",	17691
+shl(17522,rax,0x4)	:	"./code1.dump.lines",	17693
+shl(17584,rdx,0x4)	:	"./code1.dump.lines",	17755
+shl(60504,rdx,0x10)	:	"./code1.dump.lines",	61107
+shl(60505,rcx,0x10)	:	"./code1.dump.lines",	61108
+shl(60508,rcx,0x20)	:	"./code1.dump.lines",	61111
+shl(60554,rdx,0x10)	:	"./code1.dump.lines",	61157
+shl(60555,rcx,0x10)	:	"./code1.dump.lines",	61158
+shl(60558,rcx,0x20)	:	"./code1.dump.lines",	61161
+shr(63811,rdx,cl)	:	"./code1.dump.lines",	64426
+stos(12976,Memory(es, 8, rdi(0,8)),rax)	:	"./code1.dump.lines",	13075
+stos(13035,Memory(es, 4, rdi(0,8)),eax)	:	"./code1.dump.lines",	13134
+stos(13041,Memory(es, 1, rdi(0,8)),al)	:	"./code1.dump.lines",	13140
+sub(12890,rsp,0x118)	:	"./code1.dump.lines",	12987
+sub(12946,rsp,0x128)	:	"./code1.dump.lines",	13045
+sub(12962,rsp,0x80)	:	"./code1.dump.lines",	13061
+sub(12994,Memory(cs, 4,0x6bb8b4),0x1)	:	"./code1.dump.lines",	13093
+sub(13006,rsp,0x80)	:	"./code1.dump.lines",	13105
+sub(13024,rsp,0x80)	:	"./code1.dump.lines",	13123
+sub(13651,rsp,0x8)	:	"./code1.dump.lines",	13758
+sub(15401,rsp,0x8)	:	"./code1.dump.lines",	15548
+sub(15422,rsp,0x80)	:	"./code1.dump.lines",	15569
+sub(15437,rax,rdx)	:	"./code1.dump.lines",	15584
+sub(15438,rcx,rdx)	:	"./code1.dump.lines",	15585
+sub(15460,Memory(ds, 4, rdx(0,8)+4),0x1)	:	"./code1.dump.lines",	15607
+sub(15471,rsp,0x80)	:	"./code1.dump.lines",	15618
+sub(17346,rsp,0x58)	:	"./code1.dump.lines",	17515
+sub(17375,rsp,0x30)	:	"./code1.dump.lines",	17544
+sub(17379,rsp,0x20)	:	"./code1.dump.lines",	17548
+sub(17443,rsp,0x68)	:	"./code1.dump.lines",	17614
+sub(17485,r8,r12)	:	"./code1.dump.lines",	17656
+sub(17487,rsp,r15)	:	"./code1.dump.lines",	17658
+sub(17524,rsp,rax)	:	"./code1.dump.lines",	17695
+sub(17538,rdx,0x10)	:	"./code1.dump.lines",	17709
+sub(17629,rsp,0x8)	:	"./code1.dump.lines",	17802
+sub(17638,rsp,0x8)	:	"./code1.dump.lines",	17813
+sub(21393,rsp,0x10)	:	"./code1.dump.lines",	21650
+sub(21402,rax,rdx)	:	"./code1.dump.lines",	21659
+sub(21403,rcx,rdx)	:	"./code1.dump.lines",	21660
+sub(511,rsp,0x20)	:	"./code1.dump.lines",	548
+sub(533,rsp,0x30)	:	"./code1.dump.lines",	572
+sub(60562,rax,rdi)	:	"./code1.dump.lines",	61165
+sub(63972,rdx,rcx)	:	"./code1.dump.lines",	64587
+sub(69346,rsp,0x68)	:	"./code1.dump.lines",	70079
+sub(69415,rsp,0x58)	:	"./code1.dump.lines",	70150
+sub(69469,rsp,0x10)	:	"./code1.dump.lines",	70206
+sub(71999,rsp,0x8)	:	"./code1.dump.lines",	72810
+sub(72031,rsp,0x8)	:	"./code1.dump.lines",	72848
+sub(72040,rsp,0x8)	:	"./code1.dump.lines",	72859
+sub(86635,rsp,0x148)	:	"./code1.dump.lines",	87604
+syscall(12911,null,null)	:	"./code1.dump.lines",	13008
+syscall(12914,null,null)	:	"./code1.dump.lines",	13011
+syscall(12917,null,null)	:	"./code1.dump.lines",	13014
+syscall(12921,null,null)	:	"./code1.dump.lines",	13018
+syscall(12930,null,null)	:	"./code1.dump.lines",	13027
+syscall(17392,null,null)	:	"./code1.dump.lines",	17561
+syscall(17549,null,null)	:	"./code1.dump.lines",	17720
+syscall(68962,null,null)	:	"./code1.dump.lines",	69681
+syscall(68968,null,null)	:	"./code1.dump.lines",	69687
+syscall(69365,null,null)	:	"./code1.dump.lines",	70098
+syscall(69394,null,null)	:	"./code1.dump.lines",	70127
+syscall(69431,null,null)	:	"./code1.dump.lines",	70166
+syscall(69458,null,null)	:	"./code1.dump.lines",	70195
+syscall(69476,null,null)	:	"./code1.dump.lines",	70213
+syscall(70277,null,null)	:	"./code1.dump.lines",	71042
+syscall(70302,null,null)	:	"./code1.dump.lines",	71067
+syscall(70318,null,null)	:	"./code1.dump.lines",	71085
+syscall(71968,null,null)	:	"./code1.dump.lines",	72775
+syscall(71983,null,null)	:	"./code1.dump.lines",	72792
+syscall(86674,null,null)	:	"./code1.dump.lines",	87643
+syscall(86742,null,null)	:	"./code1.dump.lines",	87715
+test(12968,eax,eax)	:	"./code1.dump.lines",	13067
+test(13654,rbp,rbp)	:	"./code1.dump.lines",	13761
+test(13658,al,al)	:	"./code1.dump.lines",	13765
+test(13664,rbx,rbx)	:	"./code1.dump.lines",	13771
+test(13670,rbx,rbx)	:	"./code1.dump.lines",	13777
+test(13687,rbx,rbx)	:	"./code1.dump.lines",	13794
+test(13694,rbx,rbx)	:	"./code1.dump.lines",	13801
+test(13702,eax,eax)	:	"./code1.dump.lines",	13809
+test(15430,eax,eax)	:	"./code1.dump.lines",	15577
+test(15457,Memory(ss, 4, rbp(0,8)+0),0x8000)	:	"./code1.dump.lines",	15604
+test(17360,rax,rax)	:	"./code1.dump.lines",	17529
+test(17416,r13,r13)	:	"./code1.dump.lines",	17585
+test(17464,r13b,r13b)	:	"./code1.dump.lines",	17635
+test(17475,dl,dl)	:	"./code1.dump.lines",	17646
+test(17495,r13b,r13b)	:	"./code1.dump.lines",	17666
+test(17552,Memory(ss, 1, rbp(0,8)-136),0x1)	:	"./code1.dump.lines",	17723
+test(17596,r14,r14)	:	"./code1.dump.lines",	17767
+test(17603,Memory(ss, 1, rbp(0,8)-136),0x1)	:	"./code1.dump.lines",	17774
+test(17609,rax,rax)	:	"./code1.dump.lines",	17780
+test(21395,eax,eax)	:	"./code1.dump.lines",	21652
+test(34209,edx,0x100000)	:	"./code1.dump.lines",	34702
+test(34211,Memory(cs, 1,0x6bbe2d),0x2)	:	"./code1.dump.lines",	34704
+test(35038,edx,0x80000)	:	"./code1.dump.lines",	35547
+test(35044,dh,0x8)	:	"./code1.dump.lines",	35553
+test(35046,Memory(cs, 1,0x6bbdf1),0x2)	:	"./code1.dump.lines",	35555
+test(35048,edx,0x40000)	:	"./code1.dump.lines",	35557
+test(35050,Memory(cs, 1,0x6bbdfd),0x2)	:	"./code1.dump.lines",	35559
+test(35065,Memory(cs, 1,0x6bbdfd),0x2)	:	"./code1.dump.lines",	35574
+test(35071,Memory(cs, 1,0x6bbdfd),0x2)	:	"./code1.dump.lines",	35580
+test(60514,rdx,rdx)	:	"./code1.dump.lines",	61117
+test(60530,edx,edx)	:	"./code1.dump.lines",	61133
+test(63812,rdx,rdx)	:	"./code1.dump.lines",	64427
+test(63816,rdx,rdx)	:	"./code1.dump.lines",	64431
+test(69359,eax,eax)	:	"./code1.dump.lines",	70092
+test(69380,eax,eax)	:	"./code1.dump.lines",	70113
+test(69455,eax,eax)	:	"./code1.dump.lines",	70192
+test(70254,r9d,0xfff)	:	"./code1.dump.lines",	71019
+test(70256,rdi,rdi)	:	"./code1.dump.lines",	71021
+test(70293,dl,0x4)	:	"./code1.dump.lines",	71058
+test(70295,Memory(cs, 1,0x6bbe2e),0x1)	:	"./code1.dump.lines",	71060
+test(71971,eax,eax)	:	"./code1.dump.lines",	72778
+test(72006,edi,0x2)	:	"./code1.dump.lines",	72819
+test(72041,dil,dil)	:	"./code1.dump.lines",	72860
+test(72057,rcx,rcx)	:	"./code1.dump.lines",	72876
+test(86640,rsi,rsi)	:	"./code1.dump.lines",	87609
+test(86651,rdx,rdx)	:	"./code1.dump.lines",	87620
+test(86678,r8,r8)	:	"./code1.dump.lines",	87647
+test(86680,eax,eax)	:	"./code1.dump.lines",	87649
+test(86710,rdx,rdx)	:	"./code1.dump.lines",	87679
+test(88429,eax,eax)	:	"./code1.dump.lines",	89414
+xchg(17415,Memory(cs, 8,0x6bb8a0),r13)	:	"./code1.dump.lines",	17584
+xchg(17595,Memory(cs, 8,0x6bb8a0),r14)	:	"./code1.dump.lines",	17766
+xchg(69414,ax,ax)	:	"./code1.dump.lines",	70147
+xchg(71970,Memory(ds, 4, rdi(0,8)),eax)	:	"./code1.dump.lines",	72777
+xor(12897,eax,eax)	:	"./code1.dump.lines",	12994
+xor(12902,edi,edi)	:	"./code1.dump.lines",	12999
+xor(12926,edx,edx)	:	"./code1.dump.lines",	13023
+xor(12932,rcx,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	13029
+xor(12949,eax,eax)	:	"./code1.dump.lines",	13048
+xor(12971,eax,eax)	:	"./code1.dump.lines",	13070
+xor(12974,edx,edx)	:	"./code1.dump.lines",	13073
+xor(13015,eax,eax)	:	"./code1.dump.lines",	13114
+xor(13030,eax,eax)	:	"./code1.dump.lines",	13129
+xor(13039,edx,edx)	:	"./code1.dump.lines",	13138
+xor(13709,ebx,ebx)	:	"./code1.dump.lines",	13816
+xor(17351,eax,eax)	:	"./code1.dump.lines",	17520
+xor(17396,r9d,r9d)	:	"./code1.dump.lines",	17565
+xor(17397,edi,edi)	:	"./code1.dump.lines",	17566
+xor(17423,eax,eax)	:	"./code1.dump.lines",	17592
+xor(17448,eax,eax)	:	"./code1.dump.lines",	17619
+xor(17461,ebx,ebx)	:	"./code1.dump.lines",	17632
+xor(17462,r14d,r14d)	:	"./code1.dump.lines",	17633
+xor(17525,eax,eax)	:	"./code1.dump.lines",	17696
+xor(17555,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	17726
+xor(17566,r9d,r9d)	:	"./code1.dump.lines",	17737
+xor(17567,edi,edi)	:	"./code1.dump.lines",	17738
+xor(17614,eax,eax)	:	"./code1.dump.lines",	17785
+xor(17631,eax,eax)	:	"./code1.dump.lines",	17804
+xor(515,eax,eax)	:	"./code1.dump.lines",	552
+xor(526,rax,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	563
+xor(538,eax,eax)	:	"./code1.dump.lines",	577
+xor(570,rdx,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	609
+xor(60511,rcx,rax)	:	"./code1.dump.lines",	61114
+xor(69350,eax,eax)	:	"./code1.dump.lines",	70083
+xor(69369,rcx,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	70102
+xor(69419,eax,eax)	:	"./code1.dump.lines",	70154
+xor(69435,rcx,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	70170
+xor(69457,eax,eax)	:	"./code1.dump.lines",	70194
+xor(69475,eax,eax)	:	"./code1.dump.lines",	70212
+xor(70299,edi,edi)	:	"./code1.dump.lines",	71064
+xor(71961,r10,r10)	:	"./code1.dump.lines",	72768
+xor(72032,edi,edi)	:	"./code1.dump.lines",	72849
+xor(72048,eax,eax)	:	"./code1.dump.lines",	72867
+xor(72059,eax,eax)	:	"./code1.dump.lines",	72878
+xor(86639,eax,eax)	:	"./code1.dump.lines",	87608
+xor(86705,rcx,Memory(fs, 8, 0x28))	:	"./code1.dump.lines",	87674
+xor(86712,edx,edx)	:	"./code1.dump.lines",	87681
+xor(86713,esi,esi)	:	"./code1.dump.lines",	87682
+xor(86717,esi,esi)	:	"./code1.dump.lines",	87686
+xor(86726,edx,edx)	:	"./code1.dump.lines",	87695
+xor(88433,eax,eax)	:	"./code1.dump.lines",	89418

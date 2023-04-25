@@ -1,0 +1,9 @@
+syscall(1, null, null) = (rax(0,8)==0)-> "" (Dirty(rsi(0,8),0xffffffff)=1),
+_call(2,Numeric,null) = 1 -> "" (top(0,8) = rsp(0,8)),
+mov(3,Memory(ds,y,z),regn) = (y+z >= top(0,8)) -> "" 1,
+mov(4,Memory(x,y,z),regm) = (DirtyReg("_" + regm)==1) -> "" (Dirty(z,y)=1),
+mov(5,Memory(x,y,z),regm) = ((DirtyReg("_" + regm)==0)) -> "" (Dirty(z,y)=0),
+mov(6,regm, Memory(x,y,z)) = (Dirty(z,y)==1) -> "" (DirtyReg("_" + regm)=1),
+mov(7,regm, Memory(x,y,z)) = ((Dirty(z,y)==0)) -> "" (DirtyReg("_" + regm)=0),
+mov(8,regm, regn) = (DirtyReg("_" + regm)==1) -> "" (DirtyReg("_" + regn)=1),
+mov(9,regm, regn) = (DirtyReg("_" + regm)==0) -> "" (DirtyReg("_" + regn)=0)

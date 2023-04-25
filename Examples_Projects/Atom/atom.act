@@ -1,0 +1,43 @@
+CovalentBondT = Forall(i:ATOM) (( i.metal == 0) ->
+		"ATOM#A1: action 'CovalentBond';"
+		1
+), 
+
+MetalBondT = Forall(i:ATOM) ( (i.metal == 1) -> 
+			"ATOM#A1: action 'MetalBond';"
+			1
+),
+
+TCovalentBond = Forall(i:ATOM, j:ATOM) ( ( i != j && i.name == j.name) -> 
+			"ATOM#A1: action 'NonPolarСovalentBond';"
+			1
+),
+
+AtomValence1 = Forall (i:ATOM, j:int) ((1 <= j <= i.elNum && i.Orbital(i.Levels,j) == 1) ->
+		"ATOM#A1: action 'valence';"
+		(i.valence = i.valence + 1)
+),
+
+AtomValence2 = Forall(i:ATOM) ((i.Orbital(i.Levels,4) == 2 && i.Levels > 1) ->
+		"ATOM#A1: action 'valence';"
+		(i.valence = 0)
+),
+
+AtomValence3 = Forall(i:ATOM) ( (i.Orbital(i.Levels,1) == 2 && i.Orbital(i.Levels,2) == 0 ) -> 
+		"ATOM#A1: action 'valence';"
+		(i.valence = 2)
+),
+
+CovalentNonPolarBond = Forall(i:ATOM, j:ATOM) ( (i != j && CONNECT(i,j) && i.name == j.name && i.valence != 0 ) ->
+		"ATOM#A1: action 'СovalentNonPolarBond';"
+		( M1.atoms(1) = i;
+		M1.atoms(2) = j;  
+		M1.MolOrbital(1,1) = 2*i.valence;
+		i.valence = 0;
+		j.valence = 0)
+), 
+
+CellsNum = Forall(i:ATOM) (( 1) -> 
+			"ATOM#A1: action 'CellsNum';"
+			(i.elNum = i.Levels*i.Levels)
+)

@@ -1,0 +1,14 @@
+{
+   "TypeMessage":"SetOption","values":[
+    	{"name":"tactic","value":"dfs"},
+    	{"name":"with_logger","value":"1"},
+    	{"name":"visited_type","value":"implication"},
+    	{"name":"max_level","value":"0"},
+    	{"name":"console_mode","value":"1"},
+    	{"name":"print_env","value":"0"},
+    	{"name":"print_act","value":"1"}, 
+    	{"name":"asm_preprocessor","value":"1"},
+    	{"name":"message_interpretation","value":"none"},
+    	{"name":"ignore_act","value":"1"}
+    ]
+} 

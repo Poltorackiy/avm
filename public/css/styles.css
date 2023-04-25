@@ -1,0 +1,316 @@
+body {
+  background: linear-gradient(135deg, #2727cb, #3ac996);
+}
+
+#example {
+  width: 100%;
+  max-width: 500px;
+}
+
+#example h3 {
+  line-height: 1.5;
+}
+
+#example h3 em {
+  color: #888;
+}
+
+.nav-item.dropdown.show.multilevel {
+  margin-top: 0;
+}
+
+.nav-item.dropdown.show.multilevel {
+}
+
+.mt-5, {
+  margin-top: 0px;
+}
+
+.mt-5, .my-5 {
+  margin-top: 0px!important;
+}
+
+#graphContainer {
+    min-width:100px;
+/*  position: fixed;*/
+  /*background-color: blue;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*margin-top: -100px;*/
+  /*margin-left: -100px;*/
+}
+
+img {
+}
+
+.styled-background-ERR { background-color: red; } 
+.styled-background-WRN { background-color: #ff7; }    
+.styled-background-INF { background-color: #EAFAF1; }
+
+.secretpopout { 
+	display: none;
+        width:250px;	
+ }
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+ 
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+      
+.wrap ul {
+  list-style-position: inside;
+  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Safari and Chrome */
+  column-count: 1;
+  list-style-type: decimal;
+  height: 100%;
+}
+
+.wrapListProject ul {
+  list-style-position: inside;
+  -moz-column-count: 2; /* Firefox */
+  -webkit-column-count: 2; /* Safari and Chrome */
+  column-count: 2;
+  list-style-type: decimal;
+  height: 100%;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 5px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+section {
+  flex-grow: 1;
+}
+
+.file-drop-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  max-width: 100%;
+  padding: 25px;
+  border: 1px dashed  rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  transition: 0.2s;
+  &.is-active {
+    background-color: rgba(255,255,0,0.3);
+  }
+}
+
+.fake-btn {
+  flex-shrink: 0;
+  background-color: rgba(192,192,192,0.3);
+  border: 1px solid rgba(255,255,0,0.3);
+  border-radius: 3px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.file-msg {
+  font-size: small;
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+  &:focus {
+    outline: none;
+  }
+}
+
+
+.checkselect {
+	position: relative;
+	display: inline-block;
+	min-width: 200px;
+	text-align: left;
+}
+.checkselect-control {
+	position: relative;
+	padding: 0 !important;
+}		
+.checkselect-control select {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding-left: 5px;
+	height: 30px;
+}
+.checkselect-over {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0; 			
+	cursor: pointer;
+}
+.checkselect-popup {
+	display: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	max-height: 200px;
+	position: absolute;
+	top: 100%;
+	left: 0px; 
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+	z-index: 9999;
+	overflow: auto;
+	user-select: none;
+}	
+.checkselect label {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 4px 6px 4px 25px;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.1;
+	cursor: pointer;
+}			
+.checkselect-popup input {
+	position: absolute;
+	top: 5px; 
+	left: 8px;
+	margin: 0 !important;
+	padding: 0;
+}
+.checkselect-popup label:hover {
+	background: #03a2ff;
+	color: #fff;
+}
+.checkselect-popup fieldset {
+	display: block;
+	margin:  0;
+	padding: 0;
+	border: none;
+}
+.checkselect-popup fieldset input {
+	left: 15px;
+}		
+.checkselect-popup fieldset label {
+	padding-left: 32px;
+}		
+.checkselect-popup legend {
+	display: block;
+	margin: 0;
+	padding: 5px 8px;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.1;
+}

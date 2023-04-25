@@ -1,0 +1,3 @@
+B = ( CellsNum ; ValenceCalculation ; CREATE_BOND),
+ValenceCalculation = (AtomValence1 || AtomValence2 || AtomValence3),
+CREATE_BOND = MetalBondT + CovalentBondT.TCovalentBond.CovalentNonPolarBond.Delta

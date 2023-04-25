@@ -1,0 +1,18 @@
+
+Cancel=(
+		(Sum >  0)->
+		("Usr#u:out cancel,1() to Env#e;")
+		(Sum=0)),
+
+Insert=(Exist (c:int)(
+
+		((c==5)||(c==10)||(c==25)||(c==50))->
+		("Usr#u:action 'User insert coin';Usr#u:out insert,1() to Env#e;")
+		(Sum=Sum +  c)
+)),
+
+Prepare_Coffe=(
+		(Sum >=  95)->
+		("Usr#u:in take_your_coffee,1() from Env#e;")
+		(Sum=0))
+

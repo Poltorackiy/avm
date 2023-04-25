@@ -1,0 +1,7 @@
+BufferOverflow = xor(0,eax,eax).syscall(1,null,null).Z,
+Z=(X1+Cnt;Z) + _call(2,Numeric,null).{Y},
+Cnt =mov(4,Memory(x,y,z),regm)+mov(5,Memory(x,y,z),regm)+mov(6,regm, Memory(x,y,z))+
+   mov(7,regm, Memory(x,y,z))+mov(8,regm, regn)+mov(9,regm, regn),
+Y=(Cnt+X2;Y)+mov(3,Memory(ds,y,z),regn).Delta,
+IGNORED = (__gconv_load_cache, __free, __get_nprocs, _nl_load_domain, next_line, __gconv_release_cache, _int_free, __sysconf, insert_module, _exit, exit /* , __read_nocancel */ ),
+main=lea(101,rax,Memory(x,y,z)).mov(102,Memory(x,y,z),rax).mov(103,rdx,Memory(x,y,z)).mov(104,rsi,Memory(x,y,z)).mov(105,edi,Memory(x,y,z)).mov(106,rax,Memory(x,y,z)). _call(107,rax,null).X3

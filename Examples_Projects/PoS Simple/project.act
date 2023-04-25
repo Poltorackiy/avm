@@ -1,0 +1,50 @@
+
+selectValidator = Exist(i : NODE)(agentNODEID(i) == timeSlot) ->
+"NODE#i: action 'SelectValidator';"
+(i.Validator = 1),
+
+deselectValidator = Forall(k : NODE)(k.Validator == 1) ->
+"NODE#k: action 'UnSelectValidator';"
+(k.Validator = 0),
+
+createBlock = Exist (i:NODE) (i.Validator == 1) -> 
+"NODE#i: action 'createBlock';"
+(BlockNumber = BlockNumber + 1; i.blockCreated = BlockNumber),
+
+createRef = Exist (i:NODE, j : int) (i.Validator == 1 && i.maxLength == i.chainLength(j) && 0 < j <= i.CHAINS) -> 
+"NODE#i: action 'createRef';" 
+(
+	i.refCreated = i.block(j,i.chainLength(j));
+	i.block(j,i.chainLength(j) + 1) = i.blockCreated;
+	i.ref(j,i.chainLength(j) + 1) = i.block(j,i.chainLength(j));
+	i.chainLength(j) = i.chainLength(j) + 1
+),
+
+sendBlock = Exist (k:NODE) Forall(i : NODE) (k.Validator == 1 && i.Validator != 1) -> 
+"NODE#k : out newBlock(k.blockCreated, k.refCreated) to NODE#i;" 1,
+
+
+receiveBlocks = Exist (x : int, y : int) Forall (i : NODE, k : NODE) (i.Validator != 1) -> 
+"NODE#i : in newBlock(x,y) from NODE#k;"
+(i.refCreated = y; i.blockCreated = x),
+
+insertBlocks = Exist (x : int) Forall (i : NODE, j : int, k : int) 
+(x == i.chainLength(j) + 1 && i.Validator != 1 && 0 < j <= i.CHAINS && 1 <= k <= i.maxLength + 1 && i.block(j,k) == i.refCreated) ->
+""
+(i.block(j,x) = i.blockCreated;
+i.chainLength(j) = x;
+i.ref(j,x) = i.refCreated),
+
+
+recalcMaxLength = Forall (i : NODE, j : int) (i.chainLength(j) > i.maxLength && 0 < j <= i.CHAINS) -> 
+"NODE#i: action 'recalcMaxLength';"
+(i.maxLength = i.chainLength(j)),
+
+visualizeBlockChain = Forall (i : NODE, k :int) (1 <= k <= i.CHAINS && i.ref(k,timeSlot) != -1)-> 
+"NODE#i:action 'env:Visualize(BlockNumber - 1, agentNODEID(i), i.block(k,BlockNumber - 1), i.ref(k,BlockNumber - 1),0)';" 1,
+
+nextSlot = (timeSlot < TIME_SLOTES) -> "" (timeSlot = timeSlot + 1),
+
+nextEpoch = (timeSlot == TIME_SLOTES && epoch < EPOCHES)-> "" (timeSlot = 1; epoch = epoch + 1),
+
+lastSlot = (timeSlot == TIME_SLOTES && epoch == EPOCHES) -> "" 1

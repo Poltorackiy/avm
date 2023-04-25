@@ -1,0 +1,5 @@
+BufferOverflow = xor(0,eax,eax).syscall(1,null,null).Z,
+Z=(X1+Cnt;Z) + _call(2,sa,null).{Y},
+Cnt =mov(4,Memory(x,y,z),regm)+mov(5,Memory(x,y,z),regm)+mov(6,regm, Memory(x,y,z))+
+   mov(7,regm, Memory(x,y,z))+mov(8,regm, regn)+mov(9,regm, regn),
+Y=(Cnt+X2;Y)+mov(3,Memory(ds,y,rdi),reg).Delta

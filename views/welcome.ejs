@@ -1,0 +1,602 @@
+<section>
+        <div class="row" style="background: #ffffff;">
+           <img src="public/img/logo3.jpg" width="50px" height="50px" style="background: #ffffff;float:left; margin-left:80px;">
+          	 <span style="color: rgb(1,1,1);font-size: 25px;font-family: Anton, sans-serif; float:left; margin-left:1%;">
+            		<strong>&nbsp; &nbsp;A L G E B R A I C &nbsp; &nbsp;V I R T U A L &nbsp; &nbsp;M A C H I N E&nbsp;</strong>
+            	</span>
+            <div class="col offset-xl-2" style="background: #fffdfd;float:left"></div>
+        </div>
+    </section>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background: rgb(255,255,255);color: rgb(249,245,245);">
+        <div class="container-fluid"><a class="navbar-brand" href="#"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="background: rgb(255,253,253);font-family: Aclonica, sans-serif;">
+                <ul class="navbar-nav mr-auto" style="margin: 1px;background: #fffdfd;">
+                    <li class="nav-item" style="background: #ffffff;"><a class="nav-link active" href="About.html" style="color: #222222;font-family: '', sans-serif;background: #fffdfd;"><strong>About</strong></a></li>
+                    <li class="nav-item dropdown multilevel mt-5 mb-4" style="margin-top: 0;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="TypeProject" href="#" style="border-color: #f7f5f5;color: #222222;font-family:'Tahoma', sans-serif;"><strong>Project</strong></a>
+                        <div class="dropdown-menu dropdown-menu-right" >
+                            <div class="nav-item dropright show" style="width:min-content; color: var(--white);font-family: 'sans-serif', cursive;"><a class="dropdown-toggle" aria-expanded="true" data-toggle="dropdown" href="#" style="margin: 25px;color: rgb(55,67,77);font-size: 14px;font-family: sans-serif; width: min-content;font-weight:bold;">New</a>
+                                <div class="dropdown-menu show" style="left:180px" id="toggle_me"><a class="dropdown-item" id="TypeInsertionModel" href="#" style="font-weight:bold; font-family: sans-serif, sans-serif;">Insertion Model</a><a class="dropdown-item disabled" href="#" style="font-family:sans-serif;font-weight:bold;">Intel x86</a><a class="dropdown-item disabled" href="#" style="font-family: sans-serif;font-weight:bold;">VHDL</a><a class="dropdown-item disabled" href="#" style="font-family: sans-serif;font-weight:bold;">Java Script&nbsp;</a><a class="dropdown-item disabled" href="#" style="font-family: sans-serif;font-weight:bold;">Solidity</a><a class="dropdown-item disabled" href="#" style="font-family: sans-serif;font-weight:bold;">UML</a><a class="dropdown-item disabled" href="#" style=" font-weight:bold;font-family:sans-serif;">BPNM</a></div>
+                            </div><a class="dropdown-item disabled" href="#" style="font-family: sans-serif;font-weight:bold;">Save project (As)</a><a class="dropdown-item" id="OpenProject" href="#" style="font-family:sans-serif;font-weight:bold;">Open project</a>
+                            <a class="dropdown-item" id="openFolder" href="#" style="font-family: sans-serif;font-weight:bold;">Open demo</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown multilevel mt-5 mb-4" style="margin-top: 0;font-family: 'Alfa Slab One', cursive;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="run" href="#" style="border-color: #f7f5f5;color: #222222;font-family: 'Tahoma', sans-serif;"><strong>Run</strong></a>
+                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" id="ReachabilityMode" href="#" style="font-family: sans-serif, cursive;font-weight:bold;">Reachability</a><a class="dropdown-item" id="alebraicMatchin" style="font-family: sans-serif, cursive;font-weight:bold;">Algebraic Matching</a><a class="dropdown-item disabled" href="#" style="font-family:sans-serif, cursive;font-weight:bold;">Trace generation</a><a class="dropdown-item disabled" href="#" style="font-family:sans-serif, cursive;font-weight:bold;">Statement Proving</a><a class="dropdown-item disabled" href="#" style="font-family:sans-serif,cursive;font-weight:bold;">Fuzzing</a></div>
+                    </li>
+                    
+                     <li class="nav-item dropdown multilevel mt-5 mb-4" style="margin-top: 0;font-family: 'Alfa Slab One', cursive;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="#" href="#" style="border-color: #f7f5f5;color: #222222;font-family: 'Tahoma', sans-serif;"><strong>Verdict</strong></a>
+                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" id="BlockchainVisualizer" href="#" style="font-family: sans-serif, cursive;font-weight:bold;">Blockchain visualizer</a><a class="dropdown-item" id="MSC" href="#" style="font-family: sans-serif, cursive;font-weight:bold;">MSC</a><a class="dropdown-item" id="visualCode" href="#" style="font-family: sans-serif, cursive;font-weight:bold;">Visual Code</a><a class="dropdown-item" id="exploit" href="#" style="font-family: sans-serif, cursive;font-weight:bold;">Exploit</a></div>
+                        
+                        
+                        
+                    </li>
+                   <li class="nav-item" style="background: #ffffff;" id="download">
+                    	
+                   	<a class="nav-link" 
+                   	id="downloadTrace" href="#"
+                   	style="color: #222222;font-family: '', sans-serif;background: #fffdfd;">
+                   	<strong><i class="fa fa-download"style="margin-right:5px;color:black"></i>Download trace</strong>
+                   	</a>
+                  
+                    </li>                
+      </div>     
+                </ul><span class="navbar-text actions"> <a id="log" class="login" href="#" style="color: #222222;font-family: 'Tahoma', sans-serif;"><strong>Log In</strong></a><a class="btn btn-light action-button" role="button" href="Registration/Registration.html" style="font-family: 'Tahoma', sans-serif;"><strong>Sign Up</strong></a></span>
+            </div>
+        </div>
+    </nav>
+    <div id="hero-bottom" style="color: rgb(255,255,255);">
+        <div class="container-fluid" id="InsertionModelConteiner" style="color: rgb(255,255,255);background: #ffffff;">
+            <div class="row" style="background: #ffffff;">
+                <div class="col" style="background: #ffffff;">
+                    <p class="lead" style="color: #222222;text-align: center;font-family:sans-serif, cursive;"><strong>Source:</strong><br></p><textarea id="code1" style="width: 100%;height: 350px;" ></textarea>
+                </div>
+                <div class="col" style="background: #ffffff;color: rgb(255,255,255);">
+                    <p class="lead" style="color: #222222;text-align: center;font-family: sans-serif, cursive;background: #ffffff;"><strong>Algebraic Model:</strong><br></p><textarea id="code2" style="width: 100%;height: 350px;"></textarea>
+                </div>
+
+            </div>
+            <div class="row">
+            
+             <div class="col" style="background: #ffffff; margin-top:10px;">
+                    <p class="lead" style="color: #080808;text-align: center;background: #fffdfd;font-family: 'Arial', cursive;">
+                    	<strong>Console:</strong>
+                    </p>
+                    <textarea id="code3" style="width: 100%;height: 350px;"></textarea>
+                </div>
+            
+            
+            </div>
+            <div class="row">
+            
+                <div class="col offset-xl-0">
+           
+                </div>
+                <div class="col">
+                 
+                    <div class="btn-group" role="group" style="margin: 1px;">
+                    	<button class="btn btn-primary" id="StopSimulation" type="button" 
+                    	style="margin: 1px;text-align: right;background: rgb(255,0,0);
+                    	opacity: 0.88;filter: hue-rotate(0deg);border-color: var(--red);">Stop&nbsp;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="VisualizationConteiner" style="color: rgb(255,255,255);background: #ffffff;">
+            <div class="row">
+                 
+                <div class="col offset-xl-5"><span id="spanvis" style="color: rgb(11,11,11);font-family: 'Alfa Slab One', cursive;font-size: 30px;text-align: center;"> </span></div>
+            </div>
+            <div class="row">
+                <div class="col offset-xl-4" style="color: #222222;text-align: center;border-style: none;border-color: #070707;filter: contrast(115%);font-family: 'Alfa Slab One', cursive;"  >
+                    
+                </div>
+            </div>
+        </div>
+        <div id="out" style="color: rgb(255,255,255);"></div>
+    </div>
+    <section style="height: 80px;color: rgb(255,255,255);background: #ffffff;"></section>
+ <div class="modal" tabindex="-1" role="dialog" id="ListProjectModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #222222;
+        text-align: center;border-style: none;border-color: #070707;filter: contrast(115%);
+        font-family: 'Arial', cursive;"><b>Examples Projects</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<div class="wrapListProject">
+      		<ul id="ListProjects"
+      		style="color:#222222; font-size:15px; border-color: #070707;filter: contrast(115%); 
+      		list-style-type: none;font-family: 'Arial', cursive;"></ul>
+      	</div> 
+      </div>
+      <div class="modal-footer">
+       <button type="button" id="CancelProjectFolder" 
+       	class="btn btn-secondary";
+       	data-dismiss="modal";
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+       	font-family: Georgia, serif;">Close
+       </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div role="dialog" tabindex="-1" class="modal fade" id="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 style="color: #222222;text-align:center;
+                    border-style: none;border-color: #070707;
+                    filter: contrast(115%);font-family:'Arial';"><b>Run Mode</b></h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 	<span aria-hidden="true">×</span>
+                 </button>
+            </div> 
+            <div class="modal-body">
+		<div id="runMode" >
+	        <div id="tactic" style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);">        
+	                <p id="tacticMode">
+	                       <span style="font-weight:bold; ">Tactic:</span><br/>
+	        		<label for="fname"style="margin-left:15%;color:#222222;
+	        	 	font-family: 'Arial';">dfs</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="tactic" value="dfs" checked>
+  				 	<span class="slider round"></span>
+				</label>
+				<label for="fname" style="color: #222222;font-family:'Arial', cursive;
+				 margin-left:6%;">interaticve:</label>
+				<label class="switch">
+ 					 <input type="checkbox" name="tactic" value="interactive">
+  					<span class="slider round"></span>
+				</label>
+				<label for="fname"style="margin-left:100px;color:#222222;
+	        	 	font-family: 'Arial';margin-left:16%;">cvt:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="tactic" value="cvt">
+  				 	<span class="slider round"></span>
+				</label>
+			</p>
+	        </div>
+	        <div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); ">
+	        <p id="visitedType" style="margin-top:35px">
+	        	 <p id="visitedMode">
+	        	 <span style="font-weight:bold; ">Visited:</span><br/>
+	        		<label for="fname"style="color:#222222;
+	        	 	font-family: 'Arial';margin-left:8%;">equality:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="equality" value="1" checked>
+  				 	<span class="slider round"></span>
+				</label>
+				<label for="fname"style="color:#222222;
+	        	 	font-family: 'Arial';margin-left:4%;">implication:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="#" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+				<label for="fname"style="color:#222222;
+	        	 	font-family: 'Arial';margin-left:8%;">concrete:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="#" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+			</p>
+	        </p>
+	        </div>
+	        <div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); ">
+	         <p id="printenv" style="margin-top:5px">
+	        	 <p id="printEnvMode">
+	        		<label for="fname"style=";color:#222222;
+	        	 	font-family: 'Arial';margin-left:8%;">print env:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="print_env" value="1" checked>
+  				 	<span class="slider round"></span>
+				</label>
+				
+				<label for="fname"style="margin-left:100px;color:#222222;
+	        	 	font-family: 'Arial';margin-left:30px;">print act :</label>
+				<label class="switch">
+ 				 	<input type="checkbox" name="print_act" value="1" checked>
+  				 	<span class="slider round"></span>
+				</label>
+				
+				<label for="fname"style="margin-left:100px;color:#222222;
+	        	 	font-family: 'Arial';margin-left:30px;">asm prepr:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="asm" name="asm_prepr" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+				<br/>
+				<label for="fname"style="color:#222222;
+	        	 	font-family: 'Arial';margin-left:14%;">message interpretation:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="msg_inter" name="msg_interp" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+				<label for="fname"style="color:#222222;
+	        	 	font-family: 'Arial';margin-left:7%;">ignore_act:</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="ignore_act" name="ignore_act" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+				
+				
+			</p>
+	        </p>
+	         
+	       </div>
+	      <div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); ">
+		<p id="maxLevel"> 
+		<div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);margin-bottom:15px ; ">
+		        <div id="settings_max" style="display: inline-block; ">
+			<label for="fname"style="margin-right:45px; color:#222222;
+	        	 	font-family: 'Arial';margin-left:30px;">Max level</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="use_max" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+			</div>
+				<div id="max_level_content" style="display: inline-block; ">
+					<input id="max_level" style="margin-left:55px; border-width:1px;border-color:black; border-top:none; border-right:none; border-left:none;"/><br/>
+				</div>
+			</div>
+			<div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); margin-bottom:15px ;">
+		        <div id="settings_goal" style="display: inline-block; ">
+			<label for="fname"style="margin-right:10px;color:#222222;
+	        	 	font-family: 'Arial';margin-left:30px;">Goal condition</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="use_goal" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+			</div>
+				<div id="goal_content" style="display: inline-block; ">
+					<input id="goal_filter" style="margin-left:55px; border-width:1px; border-color:black; border-top:none; border-right:none; border-left:none;"/><br/>
+				</div>
+			</div>
+			<div style="border: 1px; box-shadow: 11px 1px 5px 0px rgba(0, 0, 0, 0), 0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); ">
+		        <div id="settings_goal" style="display: inline-block; ">
+			<label for="fname"style="margin-left:100px;color:#222222;
+	        	 	font-family: 'Arial';margin-left:30px;">Safety condition</label>
+				<label class="switch">
+ 				 	<input type="checkbox" id="use_safety" value="1">
+  				 	<span class="slider round"></span>
+				</label>
+			</div>
+				<div id="safety_content" style="display: inline-block; ">
+					<input id="safety_filter" style="margin-left:55px;border-width:1px;border-color:black; border-top:none; border-right:none; border-left:none;"/><br/>
+				</div>
+			</div>
+		</p> 
+	</div>
+	</div>
+      </div>
+    <div class="modal-footer">
+    	  <button type="button" id="CancelProjectFolder" 
+       	class="btn btn-secondary";
+       	data-dismiss="modal";
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+       	font-family: Georgia, serif;">Close
+       </button>
+    	<button id="RunOK" class="btn btn-primary" 
+    		data-dismiss="modal";
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+    		filter: contrast(115%);
+    		font-family: Georgia, serif;">Apply
+    	</button>
+    </div>
+   </div>
+ </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="addVerdict">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #222222;text-align: center;border-style: none;border-color: #070707;filter: contrast(115%);font-family: 'Arial', cursive;"><b><span id="typeVizual"></span> visualization</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="verdictOprion">
+		 <div class="file-drop-area">
+  			<span class="fake-btn">Choose files</span>
+  			<span class="file-msg">or drag and drop files here</span>
+  			<input class="file-input" type="file" multiple id="file_verdict">
+		</div>
+			
+        </p>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal" 
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+       	font-family: Georgia, serif;">Close
+       </button>
+        <button type="button" 
+        	id="OkOpenVerdict"  
+        	class="btn btn-primary" data-dismiss="modal" 
+        	style="color: white;
+       	text-align: center;
+       	font-size:14px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+    		filter: contrast(115%);
+    		font-family: Georgia, serif;">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="algebrbMatch">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #222222;text-align: center;border-style: none;border-color: #070707;filter: contrast(115%);font-family: 'Arial', cursive;"><b><span id="typeVizual"></span>Algebraic matching</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<div id="vulnerabilities">
+	               <p><span>Pattern Data Base Intel x86 Vulnerabilities</span></p>
+	        	 <div class="checkselect">
+				<label><input type="checkbox" name="vulnerabilities" value="Overflow">Buffer Overflow (Stack Damage)</label>
+				<label><input type="checkbox" name="vulnerabilities" value="BufferOverflow" >BufferOverflow 2.0</label>
+				<label><input type="checkbox" name="brands[]" value="3" disabled>Overflow</label>
+				<label><input type="checkbox" name="brands[]" value="4" disabled>Buffer overflow (Heap)</label>
+			 </div>
+	                </div>
+	                <br/>
+	                <div id="BlockchainAttacks">
+	        	<p><span>Pattern Data Base Blockchain Attacks</span></p>
+	        	 <div class="checkselect">
+				<label><input type="checkbox" name="brands[]" value="1">Double Spending</label>
+				<label><input type="checkbox" name="brands[]" value="2">Sibil</label>
+				<label><input type="checkbox" name="brands[]" value="3">Selfish Mining</label>
+				<label><input type="checkbox" name="brands[]" value="4">Fake Data</label>
+			 </div>
+	                </div>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal" 
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+       	font-family: Georgia, serif;">Close
+       </button>
+        <button type="button" 
+        	id="OkAlgebraicMaching"  
+        	class="btn btn-primary" data-dismiss="modal" 
+        	style="color: white;
+       	text-align: center;
+       	font-size:14px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+    		filter: contrast(115%);
+    		font-family: Georgia, serif;">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="ExploitVerdict">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #222222;text-align: center;border-style: none;border-color: #070707;filter: contrast(115%);font-family: 'Arial', cursive;"><b><span id="typeVizual"></span>Exploit</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<textarea id="code5" style="width:100%;height: 350px;"></textarea>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal" 
+       	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+       	font-family: Georgia, serif;">Close
+       </button>
+        <button type="button" 
+        	id="OkExplote"  
+        	class="btn btn-primary" data-dismiss="modal" 
+        	style="color: white;
+       	text-align: center;
+       	font-size:14px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+    		filter: contrast(115%);
+    		font-family: Georgia, serif;">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div role="dialog" tabindex="-1" class="modal fade" id="OpenProjectModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 style="color: #222222;text-align:center;
+                border-style: none;border-color: #070707;
+                filter: contrast(115%);font-family: 'Arial', cursive;"><b>Open project</b></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                	<span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                 <div class="file-drop-area">
+  			<span class="fake-btn">Choose files</span>
+  			<span class="file-msg">or drag and drop files here</span>
+  			<input class="file-input" type="file" multiple id="file">
+		</div>
+            </div>
+            <div class="modal-footer">
+            	<button type="button" class="btn btn-secondary";
+       		data-dismiss="modal";
+       		style="color: white;
+       		text-align: center;
+       		font-size:15px;
+       		border-style: none;
+       		border-color: #070707;filter: contrast(115%);
+       		font-family: Georgia, serif;">Close
+            	</button>
+            <button id="OkOpenProject" class="btn btn-primary" 
+            	data-dismiss="modal" 
+            	style="color: white;
+       	text-align: center;
+       	font-size:15px;
+       	border-style: none;
+       	border-color: #070707;filter: contrast(115%);
+    		filter: contrast(115%);
+    		font-family: Georgia, serif;">Open
+            </button>
+           </div>
+        </div>
+    </div>
+</div> 
+
+
+<div role="dialog" tabindex="-1" class="modal fade" id="verdictModal" style="overflow-y: scroll;overflow-x: scroll;">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 style="color: #222222;text-align:center;
+                border-style: none;border-color: #070707;
+                filter: contrast(115%);font-family: 'Arial', cursive;font-weight:bold;">
+                <span id="typeVizualVerdict"></span> verdict</h4>
+                <button type="button" class="close" data-dismiss="modal" id="cloceVerdict" aria-label="Close">
+                	<span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              <div id="TraceList" style="display:inline-block;height:100%;widtg:50px;float:left;overflow-y: scroll;
+              background-color:#FAFAFA;">
+                <span style="font-family: 'Arial',cursive;font-weight:bold;">List trace:</span>
+              	<ul id="TraceList" style="color: rgb(11,11,11);
+			font-family: sans-serif, cursive;
+			font-size:12px;"></ul>	
+              </div>
+              <div id="graphContent" style ="display:inline-block;">
+      			<div class="wrap "id="graphContainer_1">
+      		        <span id="listNonAplicableActionName"></span>
+      			<ul id="listNonAplicableAction"></ul>
+      		</div>
+      		<br/>
+      		<center><span id="nameTrace"style="font-family: 'Arial', cursive;"></span></center>
+      		<div id="graphContainer"></div>	 <div id="assemblerContent">
+      	      		<textarea id="code4" style="width:100%;height: 350px;"></textarea>
+      	      		 <div id="traversalButton" style="margin-left:5%; margin-top:10px;">
+                    	<button id="vulnerabilitieLine" 
+                    	 	type="button" disabled
+                    	 	style="color: white;
+                    	 	background:green;
+                    	 	text-align: center;
+                    	 	font-size:15px;
+                    	 	border-style: none;
+                    	 	border-color: #070707;
+                    	 	filter: contrast(115%);
+                    	 	filter: contrast(115%);
+                    	 	font-family: Georgia, serif;"
+                    	 	onClick="TraversalCodeAssembler(this.id)">Vulnerabilitie line
+                    	</button>
+                    	
+                    	<button id="forward" type="button" disabled 
+                    		style="color: white;
+       			text-align: center;
+       			background:green;
+       			font-size:15px;
+       			border-style: none;
+       			border-color: #070707;filter: contrast(115%);
+    				filter: contrast(115%);
+    				font-family: Georgia, serif;"
+                    		onClick="TraversalCodeAssembler(this.id)">Forward
+                    	</button>
+                    </div>
+      		
+      	     	</div>
+      	     	
+      	     </div>
+      	    
+         
+         </div>
+            <div class="modal-footer">
+            	<button type="button" id="CloseVerdict" class="btn btn-secondary";
+       		data-dismiss="modal";
+       		style="color: white;
+       		text-align: center;
+       		font-size:15px;
+       		border-style: none;
+       		border-color: #070707;filter: contrast(115%);
+       		font-family: Georgia, serif;">Close
+            	</button>
+           </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="public/js/multilevel-dropdown.js"></script>
+
+    <script src="public/js/codemirror.js"></script>
+    
+    <script type="text/javascript" src="public/js/jszip.js"></script>
+    
+    <script src="public/js/mxClient.js"></script>
+    <script src="public/js/mxGraph.js"></script>
+    
+    <script src="public/js/Charts.js"></script>
+
+    <script src="public/js/AplanModel.js"></script>
+    <script src="public/js/SettingAplanModel.js"></script>
+   
+    <script src="public/js/default.js"></script>
+    
+    
+    
+    
+    <script src="public/js/javascript.js"></script>
+    
+
+    <script src="public/js/start.js"></script>
+    <script src="public/js/main.js"></script>
+    

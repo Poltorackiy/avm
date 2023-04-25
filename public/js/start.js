@@ -1,0 +1,2 @@
+$("#InsertionModelConteiner").toggle();
+$("#VisualizationConteiner").toggle();
